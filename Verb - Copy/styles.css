@@ -538,6 +538,93 @@ footer {
     .read-aloud-button::before {
         margin-right: 5px;
     }
+    }
+
+    /* Styles pour le menu hamburger */
+    .hamburger-menu {
+    display: none; /* Caché par défaut sur desktop */
+    }
+
+    .hamburger-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    }
+
+    .hamburger-icon span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    }
+
+    .close-menu {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1001;
+    }
+
+  /* Media query pour activer le menu hamburger sur mobile */
+  @media screen and (max-width: 768px) {
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .navigation {
+    display: none; /* Cacher le menu par défaut */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .navigation.active {
+    display: flex;
+  }
+  
+  .navigation p {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    width: auto;
+  }
+  
+  .close-menu.active {
+    display: block;
+  }
+  
+  /* Animation pour l'icône hamburger */
+  .hamburger-icon.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  
+  .hamburger-icon.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-icon.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
 }
 
 @media screen and (max-width: 480px) {
