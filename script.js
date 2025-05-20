@@ -15170,6 +15170,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add event listener for window resize
     window.addEventListener('resize', adjustLayout);
+    
+    // Ajouter l'initialisation du menu hamburger
+    setupHamburgerMenu();
 });
 
 // Set up navigation event listeners
@@ -15613,12 +15616,18 @@ function createVerbCardElement(verb) {
         verbForm.className = 'verb';
         verbForm.textContent = conj.verb;
         
+        // MODIFICATION : Ajout d'une div pour la troisième colonne vide
+        const emptySpace = document.createElement('div');
+        emptySpace.className = 'empty-space';
+        
         const example = document.createElement('span');
         example.className = 'example';
         example.textContent = conj.example || '';
         
+        // MODIFICATION : Nouvelle structure avec le nouvel ordre
         conjugationContent.appendChild(subject);
         conjugationContent.appendChild(verbForm);
+        conjugationContent.appendChild(emptySpace);
         conjugationContent.appendChild(example);
         
         conjugationItem.appendChild(conjugationContent);
@@ -15691,57 +15700,50 @@ function formatTenseTitle(tense) {
 
 // Fonction pour initialiser le menu hamburger
 function setupHamburgerMenu() {
-  const hamburgerIcon = document.querySelector('.hamburger-icon');
-  const closeMenuButton = document.querySelector('.close-menu');
-  const navigation = document.querySelector('.navigation');
-  const navigationLinks = document.querySelectorAll('.navigation a');
+    const hamburgerIcon = document.querySelector('.hamburger-icon');
+    const closeMenuButton = document.querySelector('.close-menu');
+    const navigation = document.querySelector('.navigation');
+    const navigationLinks = document.querySelectorAll('.navigation a');
   
-  // Ouvrir le menu quand on clique sur l'icône hamburger
-  hamburgerIcon.addEventListener('click', function(e) {
-    e.stopPropagation();
-    navigation.classList.add('active');
-    hamburgerIcon.classList.add('active');
-    closeMenuButton.classList.add('active');
-    document.body.style.overflow = 'hidden'; // Empêcher le défilement du fond
-  });
-  
-  // Fermer le menu quand on clique sur le bouton X
-  closeMenuButton.addEventListener('click', function() {
-    closeMenu();
-  });
-  
-  // Fermer le menu quand on clique sur un lien
-  navigationLinks.forEach(link => {
-    link.addEventListener('click', function() {
-      closeMenu();
+    // Ouvrir le menu quand on clique sur l'icône hamburger
+    hamburgerIcon.addEventListener('click', function(e) {
+        e.stopPropagation();
+        navigation.classList.add('active');
+        hamburgerIcon.classList.add('active');
+        closeMenuButton.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Empêcher le défilement du fond
     });
-  });
   
-  // Fermer le menu quand on clique en dehors
-  document.addEventListener('click', function(event) {
-    if (navigation.classList.contains('active') && 
-        !navigation.contains(event.target) && 
-        !hamburgerIcon.contains(event.target)) {
-      closeMenu();
+    // Fermer le menu quand on clique sur le bouton X
+    closeMenuButton.addEventListener('click', function() {
+        closeMenu();
+    });
+  
+    // Fermer le menu quand on clique sur un lien
+    navigationLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            closeMenu();
+        });
+    });
+  
+    // Fermer le menu quand on clique en dehors
+    document.addEventListener('click', function(event) {
+        if (navigation.classList.contains('active') && 
+            !navigation.contains(event.target) && 
+            !hamburgerIcon.contains(event.target)) {
+            closeMenu();
+        }
+    });
+  
+    // Fonction pour fermer le menu
+    function closeMenu() {
+        navigation.classList.remove('active');
+        hamburgerIcon.classList.remove('active');
+        closeMenuButton.classList.remove('active');
+        document.body.style.overflow = ''; // Réactiver le défilement
     }
-  });
-  
-  // Fonction pour fermer le menu
-  function closeMenu() {
-    navigation.classList.remove('active');
-    hamburgerIcon.classList.remove('active');
-    closeMenuButton.classList.remove('active');
-    document.body.style.overflow = ''; // Réactiver le défilement
-  }
 }
 
-// Ajouter cette ligne à la fin de votre fonction DOMContentLoaded existante
-document.addEventListener('DOMContentLoaded', function() {
-    // Votre code existant...
-    
-    // Ajouter l'initialisation du menu hamburger
-    setupHamburgerMenu();
-});
 
 /*
 
