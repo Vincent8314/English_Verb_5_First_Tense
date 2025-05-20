@@ -485,7 +485,7 @@ footer {
     
     .search-results-container .tense-section .verb-card {
         width: 95% !important;
-        min-width: 300px !important;
+        min-width: 90vw !important;
     }
     
     /* MODIFICATION : Conserver la structure en grille 3 colonnes */
