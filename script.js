@@ -9117,7 +9117,2379 @@ const verbData = {
             ]
           },
     ],
-    "present Perfect": [
+"pastContinuous": [
+        {
+            name: "Be",
+            conjugations: [
+                { subject: "I", verb: "was being", example: "I was being attentive in class." },
+                { subject: "You", verb: "were being", example: "You were being very helpful yesterday." },
+                { subject: "He/She", verb: "was being", example: "She was being careful with the fragile items." },
+                { subject: "We", verb: "were being", example: "We were being considerate of others' feelings." },
+                { subject: "They", verb: "were being", example: "They were being quiet in the library." }
+            ]
+        },
+        {
+            name: "Have",
+            conjugations: [
+                { subject: "I", verb: "was having", example: "I was having dinner when you called." },
+                { subject: "You", verb: "were having", example: "You were having trouble with the assignment." },
+                { subject: "He/She", verb: "was having", example: "She was having a great time at the party." },
+                { subject: "We", verb: "were having", example: "We were having a meeting about the budget." },
+                { subject: "They", verb: "were having", example: "They were having difficulties with the project." }
+            ]
+        },
+        {
+            name: "Do",
+            conjugations: [
+                { subject: "I", verb: "was doing", example: "I was doing my homework when the lights went out." },
+                { subject: "You", verb: "were doing", example: "You were doing an excellent job on the presentation." },
+                { subject: "He/She", verb: "was doing", example: "He was doing his best to help everyone." },
+                { subject: "We", verb: "were doing", example: "We were doing research for our final paper." },
+                { subject: "They", verb: "were doing", example: "They were doing the dishes when I arrived." }
+            ]
+        },
+        {
+            name: "Go",
+            conjugations: [
+                { subject: "I", verb: "was going", example: "I was going to the store when it started raining." },
+                { subject: "You", verb: "were going", example: "You were going too fast on that curve." },
+                { subject: "He/She", verb: "was going", example: "She was going to visit her grandmother." },
+                { subject: "We", verb: "were going", example: "We were going through a difficult time." },
+                { subject: "They", verb: "were going", example: "They were going home after the concert." }
+            ]
+        },
+        {
+            name: "Like",
+            conjugations: [
+                { subject: "I", verb: "was liking", example: "I was liking the new flavor more and more." },
+                { subject: "You", verb: "were liking", example: "You were liking the book until the ending." },
+                { subject: "He/She", verb: "was liking", example: "She was liking her new job better each day." },
+                { subject: "We", verb: "were liking", example: "We were liking the idea of moving to the coast." },
+                { subject: "They", verb: "were liking", example: "They were liking the changes in the neighborhood." }
+            ]
+        },
+        {
+            name: "Work",
+            conjugations: [
+                { subject: "I", verb: "was working", example: "I was working late when you texted me." },
+                { subject: "You", verb: "were working", example: "You were working on the garden all morning." },
+                { subject: "He/She", verb: "was working", example: "He was working as a teacher last year." },
+                { subject: "We", verb: "were working", example: "We were working together on the solution." },
+                { subject: "They", verb: "were working", example: "They were working overtime to meet the deadline." }
+            ]
+        },
+        {
+            name: "Eat",
+            conjugations: [
+                { subject: "I", verb: "was eating", example: "I was eating lunch when the phone rang." },
+                { subject: "You", verb: "were eating", example: "You were eating too quickly at dinner." },
+                { subject: "He/She", verb: "was eating", example: "She was eating her favorite ice cream." },
+                { subject: "We", verb: "were eating", example: "We were eating at that new restaurant downtown." },
+                { subject: "They", verb: "were eating", example: "They were eating breakfast when we arrived." }
+            ]
+        },
+        {
+            name: "Study",
+            conjugations: [
+                { subject: "I", verb: "was studying", example: "I was studying for my exam all night." },
+                { subject: "You", verb: "were studying", example: "You were studying French when I called." },
+                { subject: "He/She", verb: "was studying", example: "She was studying medicine at the university." },
+                { subject: "We", verb: "were studying", example: "We were studying the effects of climate change." },
+                { subject: "They", verb: "were studying", example: "They were studying together in the library." }
+            ]
+        },
+        {
+            name: "Live",
+            conjugations: [
+                { subject: "I", verb: "was living", example: "I was living in Paris when I met my spouse." },
+                { subject: "You", verb: "were living", example: "You were living your best life during that summer." },
+                { subject: "He/She", verb: "was living", example: "He was living with his parents while saving money." },
+                { subject: "We", verb: "were living", example: "We were living in a small apartment then." },
+                { subject: "They", verb: "were living", example: "They were living through difficult times." }
+            ]
+        },
+        {
+            name: "Speak",
+            conjugations: [
+                { subject: "I", verb: "was speaking", example: "I was speaking to the manager when you arrived." },
+                { subject: "You", verb: "were speaking", example: "You were speaking too quietly for everyone to hear." },
+                { subject: "He/She", verb: "was speaking", example: "She was speaking at the conference yesterday." },
+                { subject: "We", verb: "were speaking", example: "We were speaking about the upcoming changes." },
+                { subject: "They", verb: "were speaking", example: "They were speaking in hushed tones." }
+            ]
+        },
+        {
+            name: "Make",
+            conjugations: [
+                { subject: "I", verb: "was making", example: "I was making dinner when the guests arrived early." },
+                { subject: "You", verb: "were making", example: "You were making great progress on the project." },
+                { subject: "He/She", verb: "was making", example: "She was making a presentation for tomorrow." },
+                { subject: "We", verb: "were making", example: "We were making plans for the weekend." },
+                { subject: "They", verb: "were making", example: "They were making too much noise last night." }
+            ]
+        },
+        {
+            name: "Get",
+            conjugations: [
+                { subject: "I", verb: "was getting", example: "I was getting ready for work when you called." },
+                { subject: "You", verb: "were getting", example: "You were getting better at playing the piano." },
+                { subject: "He/She", verb: "was getting", example: "He was getting tired after the long hike." },
+                { subject: "We", verb: "were getting", example: "We were getting closer to our destination." },
+                { subject: "They", verb: "were getting", example: "They were getting married next month." }
+            ]
+        },
+        {
+            name: "Take",
+            conjugations: [
+                { subject: "I", verb: "was taking", example: "I was taking notes during the lecture." },
+                { subject: "You", verb: "were taking", example: "You were taking too long to decide." },
+                { subject: "He/She", verb: "was taking", example: "She was taking care of her sick mother." },
+                { subject: "We", verb: "were taking", example: "We were taking a break from studying." },
+                { subject: "They", verb: "were taking", example: "They were taking photos at the museum." }
+            ]
+        },
+        {
+            name: "Come",
+            conjugations: [
+                { subject: "I", verb: "was coming", example: "I was coming home when I saw the accident." },
+                { subject: "You", verb: "were coming", example: "You were coming to the party, weren't you?" },
+                { subject: "He/She", verb: "was coming", example: "She was coming down with a cold." },
+                { subject: "We", verb: "were coming", example: "We were coming to the same conclusion." },
+                { subject: "They", verb: "were coming", example: "They were coming back from vacation." }
+            ]
+        },
+        {
+            name: "See",
+            conjugations: [
+                { subject: "I", verb: "was seeing", example: "I was seeing improvements in my grades." },
+                { subject: "You", verb: "were seeing", example: "You were seeing a doctor about your headaches." },
+                { subject: "He/She", verb: "was seeing", example: "He was seeing his friends more often." },
+                { subject: "We", verb: "were seeing", example: "We were seeing the effects of our hard work." },
+                { subject: "They", verb: "were seeing", example: "They were seeing each other regularly." }
+            ]
+        },
+        {
+            name: "Know",
+            conjugations: [
+                { subject: "I", verb: "was knowing", example: "I was knowing more about the subject each day." },
+                { subject: "You", verb: "were knowing", example: "You were knowing the answer all along." },
+                { subject: "He/She", verb: "was knowing", example: "She was knowing what to expect." },
+                { subject: "We", verb: "were knowing", example: "We were knowing it would be difficult." },
+                { subject: "They", verb: "were knowing", example: "They were knowing the risks involved." }
+            ]
+        },
+        {
+            name: "Think",
+            conjugations: [
+                { subject: "I", verb: "was thinking", example: "I was thinking about you when you called." },
+                { subject: "You", verb: "were thinking", example: "You were thinking too much about the problem." },
+                { subject: "He/She", verb: "was thinking", example: "She was thinking of changing careers." },
+                { subject: "We", verb: "were thinking", example: "We were thinking the same thing." },
+                { subject: "They", verb: "were thinking", example: "They were thinking about moving abroad." }
+            ]
+        },
+        {
+            name: "Give",
+            conjugations: [
+                { subject: "I", verb: "was giving", example: "I was giving a presentation when the fire alarm went off." },
+                { subject: "You", verb: "were giving", example: "You were giving excellent advice yesterday." },
+                { subject: "He/She", verb: "was giving", example: "He was giving his best effort in the game." },
+                { subject: "We", verb: "were giving", example: "We were giving them another chance." },
+                { subject: "They", verb: "were giving", example: "They were giving away free samples." }
+            ]
+        },
+        {
+            name: "Find",
+            conjugations: [
+                { subject: "I", verb: "was finding", example: "I was finding it difficult to concentrate." },
+                { subject: "You", verb: "were finding", example: "You were finding new ways to solve the problem." },
+                { subject: "He/She", verb: "was finding", example: "She was finding her keys when I arrived." },
+                { subject: "We", verb: "were finding", example: "We were finding common ground in our discussion." },
+                { subject: "They", verb: "were finding", example: "They were finding the treasure hunt challenging." }
+            ]
+        },
+        {
+            name: "Tell",
+            conjugations: [
+                { subject: "I", verb: "was telling", example: "I was telling them about my trip to Italy." },
+                { subject: "You", verb: "were telling", example: "You were telling the truth about what happened." },
+                { subject: "He/She", verb: "was telling", example: "She was telling stories to the children." },
+                { subject: "We", verb: "were telling", example: "We were telling everyone about the good news." },
+                { subject: "They", verb: "were telling", example: "They were telling jokes all evening." }
+            ]
+        },
+        {
+            name: "Ask",
+            conjugations: [
+                { subject: "I", verb: "was asking", example: "I was asking for help with my homework." },
+                { subject: "You", verb: "were asking", example: "You were asking too many questions during the meeting." },
+                { subject: "He/She", verb: "was asking", example: "He was asking about the job requirements." },
+                { subject: "We", verb: "were asking", example: "We were asking ourselves if it was worth it." },
+                { subject: "They", verb: "were asking", example: "They were asking for directions to the station." }
+            ]
+        },
+        {
+            name: "Feel",
+            conjugations: [
+                { subject: "I", verb: "was feeling", example: "I was feeling confident about the exam." },
+                { subject: "You", verb: "were feeling", example: "You were feeling under the weather yesterday." },
+                { subject: "He/She", verb: "was feeling", example: "She was feeling excited about the new opportunity." },
+                { subject: "We", verb: "were feeling", example: "We were feeling grateful for all the support." },
+                { subject: "They", verb: "were feeling", example: "They were feeling nervous before the performance." }
+            ]
+        },
+        {
+            name: "Become",
+            conjugations: [
+                { subject: "I", verb: "was becoming", example: "I was becoming more confident each day." },
+                { subject: "You", verb: "were becoming", example: "You were becoming quite skilled at photography." },
+                { subject: "He/She", verb: "was becoming", example: "She was becoming frustrated with the delays." },
+                { subject: "We", verb: "were becoming", example: "We were becoming concerned about the situation." },
+                { subject: "They", verb: "were becoming", example: "They were becoming close friends." }
+            ]
+        },
+        {
+            name: "Leave",
+            conjugations: [
+                { subject: "I", verb: "was leaving", example: "I was leaving the office when you arrived." },
+                { subject: "You", verb: "were leaving", example: "You were leaving too early from the party." },
+                { subject: "He/She", verb: "was leaving", example: "He was leaving for vacation tomorrow." },
+                { subject: "We", verb: "were leaving", example: "We were leaving messages but got no response." },
+                { subject: "They", verb: "were leaving", example: "They were leaving the theater when it started raining." }
+            ]
+        },
+        {
+            name: "Put",
+            conjugations: [
+                { subject: "I", verb: "was putting", example: "I was putting away the dishes when you called." },
+                { subject: "You", verb: "were putting", example: "You were putting too much pressure on yourself." },
+                { subject: "He/She", verb: "was putting", example: "She was putting the finishing touches on her painting." },
+                { subject: "We", verb: "were putting", example: "We were putting together a surprise party." },
+                { subject: "They", verb: "were putting", example: "They were putting their differences aside." }
+            ]
+        },
+        {
+            name: "Mean",
+            conjugations: [
+                { subject: "I", verb: "was meaning", example: "I was meaning to call you about the meeting." },
+                { subject: "You", verb: "were meaning", example: "You were meaning well, but it came out wrong." },
+                { subject: "He/She", verb: "was meaning", example: "She was meaning to finish the report yesterday." },
+                { subject: "We", verb: "were meaning", example: "We were meaning to discuss this issue earlier." },
+                { subject: "They", verb: "were meaning", example: "They were meaning to invite us to dinner." }
+            ]
+        },
+        {
+            name: "Keep",
+            conjugations: [
+                { subject: "I", verb: "was keeping", example: "I was keeping track of all the expenses." },
+                { subject: "You", verb: "were keeping", example: "You were keeping everyone entertained with your stories." },
+                { subject: "He/She", verb: "was keeping", example: "He was keeping his promise to help us move." },
+                { subject: "We", verb: "were keeping", example: "We were keeping our options open." },
+                { subject: "They", verb: "were keeping", example: "They were keeping the secret until the surprise." }
+            ]
+        },
+        {
+            name: "Let",
+            conjugations: [
+                { subject: "I", verb: "was letting", example: "I was letting my hair grow longer." },
+                { subject: "You", verb: "were letting", example: "You were letting the opportunity slip away." },
+                { subject: "He/She", verb: "was letting", example: "She was letting her emotions show." },
+                { subject: "We", verb: "were letting", example: "We were letting them know about the change." },
+                { subject: "They", verb: "were letting", example: "They were letting us use their car for the trip." }
+            ]
+        },
+        {
+            name: "Help",
+            conjugations: [
+                { subject: "I", verb: "was helping", example: "I was helping my neighbor with her groceries." },
+                { subject: "You", verb: "were helping", example: "You were helping everyone understand the concept." },
+                { subject: "He/She", verb: "was helping", example: "She was helping her children with their homework." },
+                { subject: "We", verb: "were helping", example: "We were helping to organize the community event." },
+                { subject: "They", verb: "were helping", example: "They were helping clean up after the storm." }
+            ]
+        },
+        {
+            name: "Talk",
+            conjugations: [
+                { subject: "I", verb: "was talking", example: "I was talking to my friend when you texted me." },
+                { subject: "You", verb: "were talking", example: "You were talking about this issue last week." },
+                { subject: "He/She", verb: "was talking", example: "He was talking loudly on the phone." },
+                { subject: "We", verb: "were talking", example: "We were talking about planning a vacation." },
+                { subject: "They", verb: "were talking", example: "They were talking in the hallway before class." }
+            ]
+        },
+        {
+            name: "Draw",
+            conjugations: [
+                { subject: "I", verb: "was drawing", example: "I was drawing a picture of the sunset." },
+                { subject: "You", verb: "were drawing", example: "You were drawing everyone's attention with your speech." },
+                { subject: "He/She", verb: "was drawing", example: "She was drawing conclusions from the data." },
+                { subject: "We", verb: "were drawing", example: "We were drawing up plans for the renovation." },
+                { subject: "They", verb: "were drawing", example: "They were drawing inspiration from nature." }
+            ]
+        },
+        {
+            name: "Continue",
+            conjugations: [
+                { subject: "I", verb: "was continuing", example: "I was continuing my studies despite the challenges." },
+                { subject: "You", verb: "were continuing", example: "You were continuing to improve every day." },
+                { subject: "He/She", verb: "was continuing", example: "He was continuing the family tradition." },
+                { subject: "We", verb: "were continuing", example: "We were continuing our journey at dawn." },
+                { subject: "They", verb: "were continuing", example: "They were continuing the discussion from yesterday." }
+            ]
+        },
+        {
+            name: "Sit",
+            conjugations: [
+                { subject: "I", verb: "was sitting", example: "I was sitting in the garden reading a book." },
+                { subject: "You", verb: "were sitting", example: "You were sitting too close to the television." },
+                { subject: "He/She", verb: "was sitting", example: "She was sitting quietly in the corner." },
+                { subject: "We", verb: "were sitting", example: "We were sitting around the campfire telling stories." },
+                { subject: "They", verb: "were sitting", example: "They were sitting in the front row at the concert." }
+            ]
+        },
+        {
+            name: "Rise",
+            conjugations: [
+                { subject: "I", verb: "was rising", example: "I was rising early to catch the sunrise." },
+                { subject: "You", verb: "were rising", example: "You were rising above the challenges." },
+                { subject: "He/She", verb: "was rising", example: "She was rising through the ranks quickly." },
+                { subject: "We", verb: "were rising", example: "We were rising to meet the occasion." },
+                { subject: "They", verb: "were rising", example: "They were rising from their seats to applaud." }
+            ]
+        },
+        {
+            name: "Drink",
+            conjugations: [
+                { subject: "I", verb: "was drinking", example: "I was drinking coffee when you called." },
+                { subject: "You", verb: "were drinking", example: "You were drinking too much soda yesterday." },
+                { subject: "He/She", verb: "was drinking", example: "He was drinking water throughout the workout." },
+                { subject: "We", verb: "were drinking", example: "We were drinking tea and chatting for hours." },
+                { subject: "They", verb: "were drinking", example: "They were drinking toasts to celebrate the victory." }
+            ]
+        },
+        {
+            name: "Wear",
+            conjugations: [
+                { subject: "I", verb: "was wearing", example: "I was wearing my favorite dress to the party." },
+                { subject: "You", verb: "were wearing", example: "You were wearing a beautiful smile all day." },
+                { subject: "He/She", verb: "was wearing", example: "She was wearing her grandmother's jewelry." },
+                { subject: "We", verb: "were wearing", example: "We were wearing matching outfits for the photo." },
+                { subject: "They", verb: "were wearing", example: "They were wearing uniforms for the ceremony." }
+            ]
+        },
+        {
+            name: "Choose",
+            conjugations: [
+                { subject: "I", verb: "was choosing", example: "I was choosing between two job offers." },
+                { subject: "You", verb: "were choosing", example: "You were choosing your words carefully." },
+                { subject: "He/She", verb: "was choosing", example: "She was choosing the perfect gift for her friend." },
+                { subject: "We", verb: "were choosing", example: "We were choosing a restaurant for dinner." },
+                { subject: "They", verb: "were choosing", example: "They were choosing team members for the project." }
+            ]
+        },
+        {
+            name: "Travel",
+            conjugations: [
+                { subject: "I", verb: "was traveling", example: "I was traveling through Europe last summer." },
+                { subject: "You", verb: "were traveling", example: "You were traveling too fast on that road." },
+                { subject: "He/She", verb: "was traveling", example: "He was traveling for business most of the month." },
+                { subject: "We", verb: "were traveling", example: "We were traveling together to the conference." },
+                { subject: "They", verb: "were traveling", example: "They were traveling light with just one suitcase." }
+            ]
+        },
+        {
+            name: "Forget",
+            conjugations: [
+                { subject: "I", verb: "was forgetting", example: "I was forgetting people's names more often." },
+                { subject: "You", verb: "were forgetting", example: "You were forgetting to lock the door again." },
+                { subject: "He/She", verb: "was forgetting", example: "She was forgetting her lines during rehearsal." },
+                { subject: "We", verb: "were forgetting", example: "We were forgetting how difficult it used to be." },
+                { subject: "They", verb: "were forgetting", example: "They were forgetting the lessons from the past." }
+            ]
+        },
+        {
+            name: "Smile",
+            conjugations: [
+                { subject: "I", verb: "was smiling", example: "I was smiling when I heard the good news." },
+                { subject: "You", verb: "were smiling", example: "You were smiling throughout the entire movie." },
+                { subject: "He/She", verb: "was smiling", example: "She was smiling proudly at her daughter's performance." },
+                { subject: "We", verb: "were smiling", example: "We were smiling and waving from the balcony." },
+                { subject: "They", verb: "were smiling", example: "They were smiling despite the difficult circumstances." }
+            ]
+        },
+        {
+            name: "Finish",
+            conjugations: [
+                { subject: "I", verb: "was finishing", example: "I was finishing my homework when the power went out." },
+                { subject: "You", verb: "were finishing", example: "You were finishing the project ahead of schedule." },
+                { subject: "He/She", verb: "was finishing", example: "He was finishing his meal when we arrived." },
+                { subject: "We", verb: "were finishing", example: "We were finishing the last chapter of the book." },
+                { subject: "They", verb: "were finishing", example: "They were finishing their preparations for the event." }
+            ]
+        },
+        {
+            name: "Decide",
+            conjugations: [
+                { subject: "I", verb: "was deciding", example: "I was deciding which university to attend." },
+                { subject: "You", verb: "were deciding", example: "You were deciding whether to accept the offer." },
+                { subject: "He/She", verb: "was deciding", example: "She was deciding on the wedding venue." },
+                { subject: "We", verb: "were deciding", example: "We were deciding the best course of action." },
+                { subject: "They", verb: "were deciding", example: "They were deciding who would lead the team." }
+            ]
+        },
+        {
+            name: "Explain",
+            conjugations: [
+                { subject: "I", verb: "was explaining", example: "I was explaining the concept to my students." },
+                { subject: "You", verb: "were explaining", example: "You were explaining the rules of the game." },
+                { subject: "He/She", verb: "was explaining", example: "She was explaining her decision to leave." },
+                { subject: "We", verb: "were explaining", example: "We were explaining the process step by step." },
+                { subject: "They", verb: "were explaining", example: "They were explaining the company's new policy." }
+            ]
+        },
+        {
+            name: "Develop",
+            conjugations: [
+                { subject: "I", verb: "was developing", example: "I was developing a new marketing strategy." },
+                { subject: "You", verb: "were developing", example: "You were developing your photography skills." },
+                { subject: "He/She", verb: "was developing", example: "He was developing software for the company." },
+                { subject: "We", verb: "were developing", example: "We were developing a close friendship." },
+                { subject: "They", verb: "were developing", example: "They were developing the plot for their novel." }
+            ]
+        },
+        {
+            name: "Accept",
+            conjugations: [
+                { subject: "I", verb: "was accepting", example: "I was accepting the reality of the situation." },
+                { subject: "You", verb: "were accepting", example: "You were accepting applications for the position." },
+                { subject: "He/She", verb: "was accepting", example: "She was accepting the award gracefully." },
+                { subject: "We", verb: "were accepting", example: "We were accepting donations for the charity." },
+                { subject: "They", verb: "were accepting", example: "They were accepting the challenge with enthusiasm." }
+            ]
+        },
+        {
+            name: "Drop",
+            conjugations: [
+                { subject: "I", verb: "was dropping", example: "I was dropping my children off at school." },
+                { subject: "You", verb: "were dropping", example: "You were dropping hints about your birthday." },
+                { subject: "He/She", verb: "was dropping", example: "She was dropping the class because of scheduling conflicts." },
+                { subject: "We", verb: "were dropping", example: "We were dropping by to visit our friends." },
+                { subject: "They", verb: "were dropping", example: "They were dropping prices to attract customers." }
+            ]
+        },
+        {
+            name: "Present",
+            conjugations: [
+                { subject: "I", verb: "was presenting", example: "I was presenting my research to the committee." },
+                { subject: "You", verb: "were presenting", example: "You were presenting the awards at the ceremony." },
+                { subject: "He/She", verb: "was presenting", example: "He was presenting his ideas to the board." },
+                { subject: "We", verb: "were presenting", example: "We were presenting our findings at the conference." },
+                { subject: "They", verb: "were presenting", example: "They were presenting a united front on the issue." }
+            ]
+        },
+        {
+            name: "Plan",
+            conjugations: [
+                { subject: "I", verb: "was planning", example: "I was planning a surprise party for my sister." },
+                { subject: "You", verb: "were planning", example: "You were planning your vacation for months." },
+                { subject: "He/She", verb: "was planning", example: "She was planning to move to a new city." },
+                { subject: "We", verb: "were planning", example: "We were planning our wedding for next spring." },
+                { subject: "They", verb: "were planning", example: "They were planning a major expansion of the business." }
+            ]
+        },
+        {
+            name: "Argue",
+            conjugations: [
+                { subject: "I", verb: "was arguing", example: "I was arguing with my brother about politics." },
+                { subject: "You", verb: "were arguing", example: "You were arguing your case very persuasively." },
+                { subject: "He/She", verb: "was arguing", example: "She was arguing for better working conditions." },
+                { subject: "We", verb: "were arguing", example: "We were arguing over the best route to take." },
+                { subject: "They", verb: "were arguing", example: "They were arguing late into the night." }
+            ]
+        },
+        {
+            name: "Support",
+            conjugations: [
+                { subject: "I", verb: "was supporting", example: "I was supporting my friend through a difficult time." },
+                { subject: "You", verb: "were supporting", example: "You were supporting the local charity with donations." },
+                { subject: "He/She", verb: "was supporting", example: "He was supporting his family while going to school." },
+                { subject: "We", verb: "were supporting", example: "We were supporting the new environmental initiative." },
+                { subject: "They", verb: "were supporting", example: "They were supporting each other during the crisis." }
+            ]
+        },
+        {
+            name: "Jump",
+            conjugations: [
+                { subject: "I", verb: "was jumping", example: "I was jumping on the trampoline with the kids." },
+                { subject: "You", verb: "were jumping", example: "You were jumping to conclusions too quickly." },
+                { subject: "He/She", verb: "was jumping", example: "She was jumping rope in the playground." },
+                { subject: "We", verb: "were jumping", example: "We were jumping over puddles on our way home." },
+                { subject: "They", verb: "were jumping", example: "They were jumping with excitement about the news." }
+            ]
+        },
+        {
+            name: "Share",
+            conjugations: [
+                { subject: "I", verb: "was sharing", example: "I was sharing my lunch with a hungry classmate." },
+                { subject: "You", verb: "were sharing", example: "You were sharing your experiences with the group." },
+                { subject: "He/She", verb: "was sharing", example: "She was sharing her knowledge with new employees." },
+                { subject: "We", verb: "were sharing", example: "We were sharing the cost of the rental car." },
+                { subject: "They", verb: "were sharing", example: "They were sharing photos from their vacation." }
+            ]
+        },
+        {
+            name: "Pass",
+            conjugations: [
+                { subject: "I", verb: "was passing", example: "I was passing by your house when I saw the accident." },
+                { subject: "You", verb: "were passing", example: "You were passing the ball expertly during the game." },
+                { subject: "He/She", verb: "was passing", example: "He was passing through town on his way to the airport." },
+                { subject: "We", verb: "were passing", example: "We were passing notes during the boring meeting." },
+                { subject: "They", verb: "were passing", example: "They were passing around the petition for signatures." }
+            ]
+        },
+        {
+            name: "Save",
+            conjugations: [
+                { subject: "I", verb: "was saving", example: "I was saving money for a new car." },
+                { subject: "You", verb: "were saving", example: "You were saving the environment with your recycling efforts." },
+                { subject: "He/She", verb: "was saving", example: "She was saving her energy for the final sprint." },
+                { subject: "We", verb: "were saving", example: "We were saving time by taking the shortcut." },
+                { subject: "They", verb: "were saving", example: "They were saving seats for their friends at the theater." }
+            ]
+        },
+        {
+            name: "Control",
+            conjugations: [
+                { subject: "I", verb: "was controlling", example: "I was controlling my temper during the heated discussion." },
+                { subject: "You", verb: "were controlling", example: "You were controlling the presentation remotely." },
+                { subject: "He/She", verb: "was controlling", example: "She was controlling the budget for the department." },
+                { subject: "We", verb: "were controlling", example: "We were controlling the damage from the storm." },
+                { subject: "They", verb: "were controlling", example: "They were controlling traffic at the intersection." }
+            ]
+        },
+        {
+            name: "Wonder",
+            conjugations: [
+                { subject: "I", verb: "was wondering", example: "I was wondering if you could help me with this problem." },
+                { subject: "You", verb: "were wondering", example: "You were wondering about the meaning of life." },
+                { subject: "He/She", verb: "was wondering", example: "He was wondering why the meeting was cancelled." },
+                { subject: "We", verb: "were wondering", example: "We were wondering when the guests would arrive." },
+                { subject: "They", verb: "were wondering", example: "They were wondering if the weather would improve." }
+            ]
+        },
+        {
+            name: "Include",
+            conjugations: [
+                { subject: "I", verb: "was including", example: "I was including everyone in the group discussion." },
+                { subject: "You", verb: "were including", example: "You were including extra details in your report." },
+                { subject: "He/She", verb: "was including", example: "She was including her family in all major decisions." },
+                { subject: "We", verb: "were including", example: "We were including the new data in our analysis." },
+                { subject: "They", verb: "were including", example: "They were including diversity initiatives in the company policy." }
+            ]
+        },
+        {
+            name: "Agree",
+            conjugations: [
+                { subject: "I", verb: "was agreeing", example: "I was agreeing with most of your suggestions." },
+                { subject: "You", verb: "were agreeing", example: "You were agreeing to the terms of the contract." },
+                { subject: "He/She", verb: "was agreeing", example: "She was agreeing to help with the project." },
+                { subject: "We", verb: "were agreeing", example: "We were agreeing on the best approach to take." },
+                { subject: "They", verb: "were agreeing", example: "They were agreeing to disagree on the matter." }
+            ]
+        },
+        {
+            name: "Return",
+            conjugations: [
+                { subject: "I", verb: "was returning", example: "I was returning home from my business trip." },
+                { subject: "You", verb: "were returning", example: "You were returning the favor by helping me move." },
+                { subject: "He/She", verb: "was returning", example: "She was returning the book to the library." },
+                { subject: "We", verb: "were returning", example: "We were returning to our old neighborhood." },
+                { subject: "They", verb: "were returning", example: "They were returning calls from yesterday." }
+            ]
+        },
+        {
+            name: "Describe",
+            conjugations: [
+                { subject: "I", verb: "was describing", example: "I was describing the beautiful sunset to my friend." },
+                { subject: "You", verb: "were describing", example: "You were describing your symptoms to the doctor." },
+                { subject: "He/She", verb: "was describing", example: "He was describing the suspect to the police." },
+                { subject: "We", verb: "were describing", example: "We were describing our vision for the future." },
+                { subject: "They", verb: "were describing", example: "They were describing the accident to the insurance agent." }
+            ]
+        },
+        {
+            name: "Hope",
+            conjugations: [
+                { subject: "I", verb: "was hoping", example: "I was hoping you would call me back today." },
+                { subject: "You", verb: "were hoping", example: "You were hoping for better weather this weekend." },
+                { subject: "He/She", verb: "was hoping", example: "She was hoping to get promoted this year." },
+                { subject: "We", verb: "were hoping", example: "We were hoping to finish the project early." },
+                { subject: "They", verb: "were hoping", example: "They were hoping the train wouldn't be delayed." }
+            ]
+        },
+        {
+            name: "Allow",
+            conjugations: [
+                { subject: "I", verb: "was allowing", example: "I was allowing my emotions to get the better of me." },
+                { subject: "You", verb: "were allowing", example: "You were allowing too much time for each task." },
+                { subject: "He/She", verb: "was allowing", example: "He was allowing students to retake the exam." },
+                { subject: "We", verb: "were allowing", example: "We were allowing flexibility in the schedule." },
+                { subject: "They", verb: "were allowing", example: "They were allowing pets in the apartment building." }
+            ]
+        },
+        {
+            name: "Visit",
+            conjugations: [
+                { subject: "I", verb: "was visiting", example: "I was visiting my grandmother every Sunday." },
+                { subject: "You", verb: "were visiting", example: "You were visiting the museum when it started raining." },
+                { subject: "He/She", verb: "was visiting", example: "She was visiting colleges to help make her decision." },
+                { subject: "We", verb: "were visiting", example: "We were visiting friends in the countryside." },
+                { subject: "They", verb: "were visiting", example: "They were visiting the patient in the hospital." }
+            ]
+        },
+        {
+            name: "Complete",
+            conjugations: [
+                { subject: "I", verb: "was completing", example: "I was completing my thesis when the computer crashed." },
+                { subject: "You", verb: "were completing", example: "You were completing the forms for the application." },
+                { subject: "He/She", verb: "was completing", example: "He was completing his medical residency." },
+                { subject: "We", verb: "were completing", example: "We were completing the final preparations." },
+                { subject: "They", verb: "were completing", example: "They were completing the building renovation." }
+            ]
+        },
+        {
+            name: "Love",
+            conjugations: [
+                { subject: "I", verb: "was loving", example: "I was loving every moment of my vacation." },
+                { subject: "You", verb: "were loving", example: "You were loving the new job more each day." },
+                { subject: "He/She", verb: "was loving", example: "She was loving the attention from the audience." },
+                { subject: "We", verb: "were loving", example: "We were loving the warm weather this spring." },
+                { subject: "They", verb: "were loving", example: "They were loving their new home in the suburbs." }
+            ]
+        },
+        {
+            name: "Join",
+            conjugations: [
+                { subject: "I", verb: "was joining", example: "I was joining the gym to get in better shape." },
+                { subject: "You", verb: "were joining", example: "You were joining us for dinner later." },
+                { subject: "He/She", verb: "was joining", example: "She was joining the debate team at school." },
+                { subject: "We", verb: "were joining", example: "We were joining forces to solve the problem." },
+                { subject: "They", verb: "were joining", example: "They were joining the protest march downtown." }
+            ]
+        },
+        {
+            name: "Carry",
+            conjugations: [
+                { subject: "I", verb: "was carrying", example: "I was carrying heavy boxes up the stairs." },
+                { subject: "You", verb: "were carrying", example: "You were carrying the team with your performance." },
+                { subject: "He/She", verb: "was carrying", example: "She was carrying her baby to the car." },
+                { subject: "We", verb: "were carrying", example: "We were carrying out the evacuation plan." },
+                { subject: "They", verb: "were carrying", example: "They were carrying on the family tradition." }
+            ]
+        },
+        {
+            name: "Realize",
+            conjugations: [
+                { subject: "I", verb: "was realizing", example: "I was realizing how much I had learned." },
+                { subject: "You", verb: "were realizing", example: "You were realizing the importance of the decision." },
+                { subject: "He/She", verb: "was realizing", example: "He was realizing his dream of becoming a doctor." },
+                { subject: "We", verb: "were realizing", example: "We were realizing the gravity of the situation." },
+                { subject: "They", verb: "were realizing", example: "They were realizing significant profits this quarter." }
+            ]
+        },
+        {
+            name: "Dance",
+            conjugations: [
+                { subject: "I", verb: "was dancing", example: "I was dancing all night at the wedding." },
+                { subject: "You", verb: "were dancing", example: "You were dancing beautifully on stage." },
+                { subject: "He/She", verb: "was dancing", example: "She was dancing with her father at the reception." },
+                { subject: "We", verb: "were dancing", example: "We were dancing to our favorite song." },
+                { subject: "They", verb: "were dancing", example: "They were dancing in the street during the festival." }
+            ]
+        },
+        {
+            name: "Wish",
+            conjugations: [
+                { subject: "I", verb: "was wishing", example: "I was wishing I had studied harder for the test." },
+                { subject: "You", verb: "were wishing", example: "You were wishing for a miracle to happen." },
+                { subject: "He/She", verb: "was wishing", example: "She was wishing her family could visit more often." },
+                { subject: "We", verb: "were wishing", example: "We were wishing the rain would stop." },
+                { subject: "They", verb: "were wishing", example: "They were wishing they had arrived earlier." }
+            ]
+        },
+        {
+            name: "Admit",
+            conjugations: [
+                { subject: "I", verb: "was admitting", example: "I was admitting my mistakes to the team." },
+                { subject: "You", verb: "were admitting", example: "You were admitting students to the program." },
+                { subject: "He/She", verb: "was admitting", example: "He was admitting defeat after the long battle." },
+                { subject: "We", verb: "were admitting", example: "We were admitting our concerns about the plan." },
+                { subject: "They", verb: "were admitting", example: "They were admitting new members to the club." }
+            ]
+        },
+        {
+            name: "Fix",
+            conjugations: [
+                { subject: "I", verb: "was fixing", example: "I was fixing the broken fence in the backyard." },
+                { subject: "You", verb: "were fixing", example: "You were fixing dinner when the guests arrived." },
+                { subject: "He/She", verb: "was fixing", example: "She was fixing her hair before the interview." },
+                { subject: "We", verb: "were fixing", example: "We were fixing the computer network issues." },
+                { subject: "They", verb: "were fixing", example: "They were fixing the roof after the storm." }
+            ]
+        },
+        {
+            name: "Succeed",
+            conjugations: [
+                { subject: "I", verb: "was succeeding", example: "I was succeeding beyond my wildest dreams." },
+                { subject: "You", verb: "were succeeding", example: "You were succeeding where others had failed." },
+                { subject: "He/She", verb: "was succeeding", example: "She was succeeding in her new business venture." },
+                { subject: "We", verb: "were succeeding", example: "We were succeeding in our mission to help others." },
+                { subject: "They", verb: "were succeeding", example: "They were succeeding in turning the company around." }
+            ]
+        },
+        {
+            name: "Enjoy",
+            conjugations: [
+                { subject: "I", verb: "was enjoying", example: "I was enjoying the peaceful morning by the lake." },
+                { subject: "You", verb: "were enjoying", example: "You were enjoying every bite of the delicious meal." },
+                { subject: "He/She", verb: "was enjoying", example: "He was enjoying his retirement immensely." },
+                { subject: "We", verb: "were enjoying", example: "We were enjoying the company of our friends." },
+                { subject: "They", verb: "were enjoying", example: "They were enjoying the concert from the front row." }
+            ]
+        },
+        {
+            name: "Clean",
+            conjugations: [
+                { subject: "I", verb: "was cleaning", example: "I was cleaning the house when you called." },
+                { subject: "You", verb: "were cleaning", example: "You were cleaning your room all morning." },
+                { subject: "He/She", verb: "was cleaning", example: "She was cleaning the windows before the party." },
+                { subject: "We", verb: "were cleaning", example: "We were cleaning up after the big event." },
+                { subject: "They", verb: "were cleaning", example: "They were cleaning the office building overnight." }
+            ]
+        },
+        {
+            name: "Achieve",
+            conjugations: [
+                { subject: "I", verb: "was achieving", example: "I was achieving my fitness goals gradually." },
+                { subject: "You", verb: "were achieving", example: "You were achieving excellent results with your students." },
+                { subject: "He/She", verb: "was achieving", example: "She was achieving recognition for her research." },
+                { subject: "We", verb: "were achieving", example: "We were achieving our sales targets consistently." },
+                { subject: "They", verb: "were achieving", example: "They were achieving remarkable progress in the project." }
+            ]
+        },
+        {
+            name: "Cover",
+            conjugations: [
+                { subject: "I", verb: "was covering", example: "I was covering the story for the local newspaper." },
+                { subject: "You", verb: "were covering", example: "You were covering all the important topics in your presentation." },
+                { subject: "He/She", verb: "was covering", example: "She was covering the furniture with sheets." },
+                { subject: "We", verb: "were covering", example: "We were covering a lot of ground in our discussion." },
+                { subject: "They", verb: "were covering", example: "They were covering the expenses for the trip." }
+            ]
+        },
+        {
+            name: "Avoid",
+            conjugations: [
+                { subject: "I", verb: "was avoiding", example: "I was avoiding the busy highway during rush hour." },
+                { subject: "You", verb: "were avoiding", example: "You were avoiding making eye contact with anyone." },
+                { subject: "He/She", verb: "was avoiding", example: "He was avoiding the subject of money." },
+                { subject: "We", verb: "were avoiding", example: "We were avoiding unnecessary risks in the investment." },
+                { subject: "They", verb: "were avoiding", example: "They were avoiding the construction area downtown." }
+            ]
+        },
+        {
+            name: "Raise",
+            conjugations: [
+                { subject: "I", verb: "was raising", example: "I was raising money for the children's charity." },
+                { subject: "You", verb: "were raising", example: "You were raising your voice during the argument." },
+                { subject: "He/She", verb: "was raising", example: "She was raising three children on her own." },
+                { subject: "We", verb: "were raising", example: "We were raising awareness about climate change." },
+                { subject: "They", verb: "were raising", example: "They were raising the flag at sunrise." }
+            ]
+        },
+        {
+            name: "Experience",
+            conjugations: [
+                { subject: "I", verb: "was experiencing", example: "I was experiencing some technical difficulties." },
+                { subject: "You", verb: "were experiencing", example: "You were experiencing the culture shock of living abroad." },
+                { subject: "He/She", verb: "was experiencing", example: "She was experiencing severe headaches lately." },
+                { subject: "We", verb: "were experiencing", example: "We were experiencing unprecedented growth." },
+                { subject: "They", verb: "were experiencing", example: "They were experiencing delays due to bad weather." }
+            ]
+        },
+        {
+            name: "Identify",
+            conjugations: [
+                { subject: "I", verb: "was identifying", example: "I was identifying the problem with the system." },
+                { subject: "You", verb: "were identifying", example: "You were identifying potential solutions to the crisis." },
+                { subject: "He/She", verb: "was identifying", example: "He was identifying the suspect from the lineup." },
+                { subject: "We", verb: "were identifying", example: "We were identifying areas for improvement." },
+                { subject: "They", verb: "were identifying", example: "They were identifying new market opportunities." }
+            ]
+        },
+        {
+            name: "Prepare",
+            conjugations: [
+                { subject: "I", verb: "was preparing", example: "I was preparing for the job interview all week." },
+                { subject: "You", verb: "were preparing", example: "You were preparing a delicious meal for the guests." },
+                { subject: "He/She", verb: "was preparing", example: "She was preparing her presentation for tomorrow." },
+                { subject: "We", verb: "were preparing", example: "We were preparing the documents for the meeting." },
+                { subject: "They", verb: "were preparing", example: "They were preparing to leave on their vacation." }
+            ]
+        },
+        {
+            name: "Laugh",
+            conjugations: [
+                { subject: "I", verb: "was laughing", example: "I was laughing so hard I couldn't breathe." },
+                { subject: "You", verb: "were laughing", example: "You were laughing at the comedian's jokes." },
+                { subject: "He/She", verb: "was laughing", example: "She was laughing with joy at the good news." },
+                { subject: "We", verb: "were laughing", example: "We were laughing about old memories from school." },
+                { subject: "They", verb: "were laughing", example: "They were laughing despite the difficult situation." }
+            ]
+        },
+        {
+            name: "Manage",
+            conjugations: [
+                { subject: "I", verb: "was managing", example: "I was managing the restaurant during the busy season." },
+                { subject: "You", verb: "were managing", example: "You were managing your time very efficiently." },
+                { subject: "He/She", verb: "was managing", example: "He was managing the team's daily operations." },
+                { subject: "We", verb: "were managing", example: "We were managing our finances more carefully." },
+                { subject: "They", verb: "were managing", example: "They were managing multiple projects simultaneously." }
+            ]
+        },
+        {
+            name: "Enter",
+            conjugations: [
+                { subject: "I", verb: "was entering", example: "I was entering the building when the alarm went off." },
+                { subject: "You", verb: "were entering", example: "You were entering data into the computer system." },
+                { subject: "He/She", verb: "was entering", example: "She was entering the competition for the third time." },
+                { subject: "We", verb: "were entering", example: "We were entering a new phase of the project." },
+                { subject: "They", verb: "were entering", example: "They were entering the market with their innovative product." }
+            ]
+        },
+        {
+            name: "Care",
+            conjugations: [
+                { subject: "I", verb: "was caring", example: "I was caring for my sick grandmother." },
+                { subject: "You", verb: "were caring", example: "You were caring too much about what others thought." },
+                { subject: "He/She", verb: "was caring", example: "She was caring for the injured animals at the shelter." },
+                { subject: "We", verb: "were caring", example: "We were caring for the garden while they were away." },
+                { subject: "They", verb: "were caring", example: "They were caring for the elderly in the nursing home." }
+            ]
+        },
+        {
+            name: "Solve",
+            conjugations: [
+                { subject: "I", verb: "was solving", example: "I was solving math problems for hours." },
+                { subject: "You", verb: "were solving", example: "You were solving the puzzle piece by piece." },
+                { subject: "He/She", verb: "was solving", example: "He was solving customer complaints all morning." },
+                { subject: "We", verb: "were solving", example: "We were solving the technical issues one by one." },
+                { subject: "They", verb: "were solving", example: "They were solving crimes as a detective team." }
+            ]
+        },
+        {
+            name: "Produce",
+            conjugations: [
+                { subject: "I", verb: "was producing", example: "I was producing a documentary about local history." },
+                { subject: "You", verb: "were producing", example: "You were producing excellent work under pressure." },
+                { subject: "He/She", verb: "was producing", example: "She was producing organic vegetables in her garden." },
+                { subject: "We", verb: "were producing", example: "We were producing the annual report for shareholders." },
+                { subject: "They", verb: "were producing", example: "They were producing renewable energy from solar panels." }
+            ]
+        },
+        {
+            name: "Close",
+            conjugations: [
+                { subject: "I", verb: "was closing", example: "I was closing the store when the phone rang." },
+                { subject: "You", verb: "were closing", example: "You were closing the deal with the important client." },
+                { subject: "He/She", verb: "was closing", example: "She was closing the gap between first and second place." },
+                { subject: "We", verb: "were closing", example: "We were closing the meeting with final remarks." },
+                { subject: "They", verb: "were closing", example: "They were closing their eyes and making a wish." }
+            ]
+        },
+        {
+            name: "Notice",
+            conjugations: [
+                { subject: "I", verb: "was noticing", example: "I was noticing small changes in her behavior." },
+                { subject: "You", verb: "were noticing", example: "You were noticing details that others missed." },
+                { subject: "He/She", verb: "was noticing", example: "He was noticing improvement in his students' work." },
+                { subject: "We", verb: "were noticing", example: "We were noticing a pattern in the data." },
+                { subject: "They", verb: "were noticing", example: "They were noticing more birds in the garden lately." }
+            ]
+        },
+        {
+            name: "Imagine",
+            conjugations: [
+                { subject: "I", verb: "was imagining", example: "I was imagining what life would be like in another country." },
+                { subject: "You", verb: "were imagining", example: "You were imagining the perfect vacation destination." },
+                { subject: "He/She", verb: "was imagining", example: "She was imagining her future as a successful artist." },
+                { subject: "We", verb: "were imagining", example: "We were imagining all the possibilities for the new project." },
+                { subject: "They", verb: "were imagining", example: "They were imagining a world without pollution." }
+            ]
+        },
+        {
+            name: "Replace",
+            conjugations: [
+                { subject: "I", verb: "was replacing", example: "I was replacing the broken window in the kitchen." },
+                { subject: "You", verb: "were replacing", example: "You were replacing the old carpet with hardwood floors." },
+                { subject: "He/She", verb: "was replacing", example: "He was replacing the manager who had resigned." },
+                { subject: "We", verb: "were replacing", example: "We were replacing outdated equipment with modern technology." },
+                { subject: "They", verb: "were replacing", example: "They were replacing the entire roof after the storm." }
+            ]
+        },
+        {
+            name: "Improve",
+            conjugations: [
+                { subject: "I", verb: "was improving", example: "I was improving my Spanish by practicing every day." },
+                { subject: "You", verb: "were improving", example: "You were improving your cooking skills with each meal." },
+                { subject: "He/She", verb: "was improving", example: "She was improving the company's efficiency." },
+                { subject: "We", verb: "were improving", example: "We were improving our customer service standards." },
+                { subject: "They", verb: "were improving", example: "They were improving the neighborhood with community gardens." }
+            ]
+        },
+        {
+            name: "Apply",
+            conjugations: [
+                { subject: "I", verb: "was applying", example: "I was applying for several jobs at the same time." },
+                { subject: "You", verb: "were applying", example: "You were applying pressure to stop the bleeding." },
+                { subject: "He/She", verb: "was applying", example: "She was applying makeup before the performance." },
+                { subject: "We", verb: "were applying", example: "We were applying new strategies to increase sales." },
+                { subject: "They", verb: "were applying", example: "They were applying for university scholarships." }
+            ]
+        },
+        {
+            name: "Report",
+            conjugations: [
+                { subject: "I", verb: "was reporting", example: "I was reporting the incident to the authorities." },
+                { subject: "You", verb: "were reporting", example: "You were reporting live from the scene of the accident." },
+                { subject: "He/She", verb: "was reporting", example: "He was reporting the financial results to the board." },
+                { subject: "We", verb: "were reporting", example: "We were reporting our progress to the supervisor." },
+                { subject: "They", verb: "were reporting", example: "They were reporting suspicious activity in the area." }
+            ]
+        },
+        {
+            name: "Listen",
+            conjugations: [
+                { subject: "I", verb: "was listening", example: "I was listening to music while working on my project." },
+                { subject: "You", verb: "were listening", example: "You were listening carefully to the teacher's instructions." },
+                { subject: "He/She", verb: "was listening", example: "She was listening to her grandmother's stories." },
+                { subject: "We", verb: "were listening", example: "We were listening to the radio for weather updates." },
+                { subject: "They", verb: "were listening", example: "They were listening to customer feedback about the product." }
+            ]
+        },
+        {
+            name: "Discover",
+            conjugations: [
+                { subject: "I", verb: "was discovering", example: "I was discovering new recipes to try at home." },
+                { subject: "You", verb: "were discovering", example: "You were discovering hidden talents you never knew you had." },
+                { subject: "He/She", verb: "was discovering", example: "She was discovering the truth about her family history." },
+                { subject: "We", verb: "were discovering", example: "We were discovering amazing places during our road trip." },
+                { subject: "They", verb: "were discovering", example: "They were discovering new species in the rainforest." }
+            ]
+        },
+        {
+            name: "Protect",
+            conjugations: [
+                { subject: "I", verb: "was protecting", example: "I was protecting my younger sister from the bullies." },
+                { subject: "You", verb: "were protecting", example: "You were protecting your investment with insurance." },
+                { subject: "He/She", verb: "was protecting", example: "He was protecting the environment through his work." },
+                { subject: "We", verb: "were protecting", example: "We were protecting our privacy by using secure passwords." },
+                { subject: "They", verb: "were protecting", example: "They were protecting endangered wildlife in the reserve." }
+            ]
+        },
+        {
+            name: "Occur",
+            conjugations: [
+                { subject: "I", verb: "was occurring", example: "I was occurring to realize the mistake I had made." },
+                { subject: "You", verb: "were occurring", example: "You were occurring more frequently in my thoughts." },
+                { subject: "He/She", verb: "was occurring", example: "The problem was occurring repeatedly in the system." },
+                { subject: "We", verb: "were occurring", example: "We were occurring to notice patterns in the data." },
+                { subject: "They", verb: "were occurring", example: "The meetings were occurring every Monday morning." }
+            ]
+        },
+        {
+            name: "Fight",
+            conjugations: [
+                { subject: "I", verb: "was fighting", example: "I was fighting to stay awake during the long meeting." },
+                { subject: "You", verb: "were fighting", example: "You were fighting for your rights in court." },
+                { subject: "He/She", verb: "was fighting", example: "She was fighting a cold that wouldn't go away." },
+                { subject: "We", verb: "were fighting", example: "We were fighting against discrimination in our community." },
+                { subject: "They", verb: "were fighting", example: "They were fighting to save the old library building." }
+            ]
+        },
+        {
+            name: "Remove",
+            conjugations: [
+                { subject: "I", verb: "was removing", example: "I was removing old files from my computer." },
+                { subject: "You", verb: "were removing", example: "You were removing stains from the carpet." },
+                { subject: "He/She", verb: "was removing", example: "He was removing obstacles from the path." },
+                { subject: "We", verb: "were removing", example: "We were removing weeds from the garden." },
+                { subject: "They", verb: "were removing", example: "They were removing debris after the construction." }
+            ]
+        },
+        {
+            name: "Discuss",
+            conjugations: [
+                { subject: "I", verb: "was discussing", example: "I was discussing the proposal with my colleagues." },
+                { subject: "You", verb: "were discussing", example: "You were discussing your concerns with the manager." },
+                { subject: "He/She", verb: "was discussing", example: "She was discussing wedding plans with her fiancé." },
+                { subject: "We", verb: "were discussing", example: "We were discussing the budget for next year." },
+                { subject: "They", verb: "were discussing", example: "They were discussing the terms of the contract." }
+            ]
+        },
+        {
+            name: "Face",
+            conjugations: [
+                { subject: "I", verb: "was facing", example: "I was facing my biggest fear by speaking in public." },
+                { subject: "You", verb: "were facing", example: "You were facing the window to get better light." },
+                { subject: "He/She", verb: "was facing", example: "She was facing a difficult decision about her career." },
+                { subject: "We", verb: "were facing", example: "We were facing financial challenges this quarter." },
+                { subject: "They", verb: "were facing", example: "They were facing criticism for their controversial policy." }
+            ]
+        },
+        {
+            name: "Cut",
+            conjugations: [
+                { subject: "I", verb: "was cutting", example: "I was cutting vegetables for the dinner party." },
+                { subject: "You", verb: "were cutting", example: "You were cutting your hair shorter for summer." },
+                { subject: "He/She", verb: "was cutting", example: "He was cutting through the forest to save time." },
+                { subject: "We", verb: "were cutting", example: "We were cutting costs to improve profitability." },
+                { subject: "They", verb: "were cutting", example: "They were cutting the ribbon at the grand opening." }
+            ]
+        },
+        {
+            name: "Miss",
+            conjugations: [
+                { subject: "I", verb: "was missing", example: "I was missing my family during the holiday season." },
+                { subject: "You", verb: "were missing", example: "You were missing important details in your report." },
+                { subject: "He/She", verb: "was missing", example: "She was missing from work due to illness." },
+                { subject: "We", verb: "were missing", example: "We were missing the old days when life was simpler." },
+                { subject: "They", verb: "were missing", example: "They were missing opportunities to expand the business." }
+            ]
+        },
+        {
+            name: "Reduce",
+            conjugations: [
+                { subject: "I", verb: "was reducing", example: "I was reducing my sugar intake for better health." },
+                { subject: "You", verb: "were reducing", example: "You were reducing the complexity of the problem." },
+                { subject: "He/She", verb: "was reducing", example: "She was reducing expenses to save money." },
+                { subject: "We", verb: "were reducing", example: "We were reducing our carbon footprint this year." },
+                { subject: "They", verb: "were reducing", example: "They were reducing staff due to budget constraints." }
+            ]
+        },
+        {
+            name: "Sing",
+            conjugations: [
+                { subject: "I", verb: "was singing", example: "I was singing in the choir at church." },
+                { subject: "You", verb: "were singing", example: "You were singing beautifully at the talent show." },
+                { subject: "He/She", verb: "was singing", example: "She was singing lullabies to her baby." },
+                { subject: "We", verb: "were singing", example: "We were singing happy birthday when you arrived." },
+                { subject: "They", verb: "were singing", example: "They were singing folk songs around the campfire." }
+            ]
+        },
+        {
+            name: "Deliver",
+            conjugations: [
+                { subject: "I", verb: "was delivering", example: "I was delivering packages to customers all morning." },
+                { subject: "You", verb: "were delivering", example: "You were delivering an important presentation to investors." },
+                { subject: "He/She", verb: "was delivering", example: "He was delivering newspapers before school." },
+                { subject: "We", verb: "were delivering", example: "We were delivering meals to elderly residents." },
+                { subject: "They", verb: "were delivering", example: "They were delivering excellent customer service." }
+            ]
+        },
+        {
+            name: "Collect",
+            conjugations: [
+                { subject: "I", verb: "was collecting", example: "I was collecting stamps as a hobby since childhood." },
+                { subject: "You", verb: "were collecting", example: "You were collecting donations for the charity drive." },
+                { subject: "He/She", verb: "was collecting", example: "She was collecting data for her research project." },
+                { subject: "We", verb: "were collecting", example: "We were collecting shells on the beach." },
+                { subject: "They", verb: "were collecting", example: "They were collecting signatures for the petition." }
+            ]
+        },
+        {
+            name: "Throw",
+            conjugations: [
+                { subject: "I", verb: "was throwing", example: "I was throwing the ball to my dog in the park." },
+                { subject: "You", verb: "were throwing", example: "You were throwing away old clothes you no longer wore." },
+                { subject: "He/She", verb: "was throwing", example: "She was throwing a surprise party for her husband." },
+                { subject: "We", verb: "were throwing", example: "We were throwing our support behind the new candidate." },
+                { subject: "They", verb: "were throwing", example: "They were throwing confetti at the celebration." }
+            ]
+        },
+        {
+            name: "Treat",
+            conjugations: [
+                { subject: "I", verb: "was treating", example: "I was treating my friends to dinner at the new restaurant." },
+                { subject: "You", verb: "were treating", example: "You were treating the patient with great care." },
+                { subject: "He/She", verb: "was treating", example: "He was treating everyone with respect and kindness." },
+                { subject: "We", verb: "were treating", example: "We were treating the problem as a top priority." },
+                { subject: "They", verb: "were treating", example: "They were treating the symptoms but not the cause." }
+            ]
+        },
+        {
+            name: "Introduce",
+            conjugations: [
+                { subject: "I", verb: "was introducing", example: "I was introducing my girlfriend to my parents." },
+                { subject: "You", verb: "were introducing", example: "You were introducing new ideas to the team." },
+                { subject: "He/She", verb: "was introducing", example: "She was introducing herself to the new neighbors." },
+                { subject: "We", verb: "were introducing", example: "We were introducing changes to the company policy." },
+                { subject: "They", verb: "were introducing", example: "They were introducing innovative products to the market." }
+            ]
+        },
+        {
+            name: "Answer",
+            conjugations: [
+                { subject: "I", verb: "was answering", example: "I was answering emails when you knocked on the door." },
+                { subject: "You", verb: "were answering", example: "You were answering all the questions correctly." },
+                { subject: "He/She", verb: "was answering", example: "She was answering phone calls for the customer service." },
+                { subject: "We", verb: "were answering", example: "We were answering to the board of directors." },
+                { subject: "They", verb: "were answering", example: "They were answering the survey about workplace satisfaction." }
+            ]
+        },
+        {
+            name: "Exist",
+            conjugations: [
+                { subject: "I", verb: "was existing", example: "I was existing in a state of constant worry." },
+                { subject: "You", verb: "were existing", example: "You were existing on very little sleep lately." },
+                { subject: "He/She", verb: "was existing", example: "The company was existing under difficult financial conditions." },
+                { subject: "We", verb: "were existing", example: "We were existing in harmony with our neighbors." },
+                { subject: "They", verb: "were existing", example: "They were existing on a tight budget after retirement." }
+            ]
+        },
+        {
+            name: "Pull",
+            conjugations: [
+                { subject: "I", verb: "was pulling", example: "I was pulling weeds from the flower bed." },
+                { subject: "You", verb: "were pulling", example: "You were pulling your weight in the group project." },
+                { subject: "He/She", verb: "was pulling", example: "She was pulling strings to get the job done." },
+                { subject: "We", verb: "were pulling", example: "We were pulling together as a team during the crisis." },
+                { subject: "They", verb: "were pulling", example: "They were pulling the heavy cart up the hill." }
+            ]
+        },
+        {
+            name: "Maintain",
+            conjugations: [
+                { subject: "I", verb: "was maintaining", example: "I was maintaining my car to prevent major repairs." },
+                { subject: "You", verb: "were maintaining", example: "You were maintaining your composure during the difficult meeting." },
+                { subject: "He/She", verb: "was maintaining", example: "He was maintaining the garden throughout the summer." },
+                { subject: "We", verb: "were maintaining", example: "We were maintaining contact with our overseas clients." },
+                { subject: "They", verb: "were maintaining", example: "They were maintaining high standards of quality." }
+            ]
+        },
+        {
+            name: "Type",
+            conjugations: [
+                { subject: "I", verb: "was typing", example: "I was typing my final report when the computer crashed." },
+                { subject: "You", verb: "were typing", example: "You were typing faster than I could follow." },
+                { subject: "He/She", verb: "was typing", example: "She was typing notes during the lecture." },
+                { subject: "We", verb: "were typing", example: "We were typing up the meeting minutes." },
+                { subject: "They", verb: "were typing", example: "They were typing their responses to the survey." }
+            ]
+        },
+        {
+            name: "Suggest",
+            conjugations: [
+                { subject: "I", verb: "was suggesting", example: "I was suggesting we postpone the meeting until next week." },
+                { subject: "You", verb: "were suggesting", example: "You were suggesting improvements to the current system." },
+                { subject: "He/She", verb: "was suggesting", example: "She was suggesting alternative solutions to the problem." },
+                { subject: "We", verb: "were suggesting", example: "We were suggesting changes to the company policy." },
+                { subject: "They", verb: "were suggesting", example: "They were suggesting we try a different approach." }
+            ]
+        },
+        {
+            name: "Connect",
+            conjugations: [
+                { subject: "I", verb: "was connecting", example: "I was connecting the new printer to the network." },
+                { subject: "You", verb: "were connecting", example: "You were connecting with old friends on social media." },
+                { subject: "He/She", verb: "was connecting", example: "He was connecting the dots between the two events." },
+                { subject: "We", verb: "were connecting", example: "We were connecting our ideas to create a solution." },
+                { subject: "They", verb: "were connecting", example: "They were connecting customers with the right products." }
+            ]
+        },
+        {
+            name: "Compare",
+            conjugations: [
+                { subject: "I", verb: "was comparing", example: "I was comparing prices at different stores." },
+                { subject: "You", verb: "were comparing", example: "You were comparing your results with the benchmark." },
+                { subject: "He/She", verb: "was comparing", example: "She was comparing job offers from multiple companies." },
+                { subject: "We", verb: "were comparing", example: "We were comparing this year's sales to last year's." },
+                { subject: "They", verb: "were comparing", example: "They were comparing different investment options." }
+            ]
+        },
+        {
+            name: "Handle",
+            conjugations: [
+                { subject: "I", verb: "was handling", example: "I was handling customer complaints when the manager arrived." },
+                { subject: "You", verb: "were handling", example: "You were handling the situation with great skill." },
+                { subject: "He/She", verb: "was handling", example: "She was handling multiple projects at the same time." },
+                { subject: "We", verb: "were handling", example: "We were handling the crisis response effectively." },
+                { subject: "They", verb: "were handling", example: "They were handling the equipment with extreme care." }
+            ]
+        },
+        {
+            name: "Fill",
+            conjugations: [
+                { subject: "I", verb: "was filling", example: "I was filling out the application form when you called." },
+                { subject: "You", verb: "were filling", example: "You were filling the tank with gasoline." },
+                { subject: "He/She", verb: "was filling", example: "He was filling the position temporarily." },
+                { subject: "We", verb: "were filling", example: "We were filling bags with donated clothes." },
+                { subject: "They", verb: "were filling", example: "They were filling the auditorium for the concert." }
+            ]
+        },
+        {
+            name: "Ignore",
+            conjugations: [
+                { subject: "I", verb: "was ignoring", example: "I was ignoring the noise from the construction site." },
+                { subject: "You", verb: "were ignoring", example: "You were ignoring all the warning signs." },
+                { subject: "He/She", verb: "was ignoring", example: "She was ignoring her phone calls during the meeting." },
+                { subject: "We", verb: "were ignoring", example: "We were ignoring the rumors about the company." },
+                { subject: "They", verb: "were ignoring", example: "They were ignoring the safety protocols." }
+            ]
+        },
+        {
+            name: "Survive",
+            conjugations: [
+                { subject: "I", verb: "was surviving", example: "I was surviving on very little income after losing my job." },
+                { subject: "You", verb: "were surviving", example: "You were surviving the harsh winter conditions." },
+                { subject: "He/She", verb: "was surviving", example: "The business was surviving despite the economic downturn." },
+                { subject: "We", verb: "were surviving", example: "We were surviving on canned food during the storm." },
+                { subject: "They", verb: "were surviving", example: "They were surviving in the wilderness for weeks." }
+            ]
+        },
+        {
+            name: "Attempt",
+            conjugations: [
+                { subject: "I", verb: "was attempting", example: "I was attempting to solve the puzzle when you interrupted." },
+                { subject: "You", verb: "were attempting", example: "You were attempting to break the world record." },
+                { subject: "He/She", verb: "was attempting", example: "She was attempting to climb the mountain solo." },
+                { subject: "We", verb: "were attempting", example: "We were attempting to negotiate a better deal." },
+                { subject: "They", verb: "were attempting", example: "They were attempting to fix the broken machinery." }
+            ]
+        },
+        {
+            name: "Divide",
+            conjugations: [
+                { subject: "I", verb: "was dividing", example: "I was dividing the cake into equal pieces for everyone." },
+                { subject: "You", verb: "were dividing", example: "You were dividing your time between work and family." },
+                { subject: "He/She", verb: "was dividing", example: "He was dividing the class into smaller groups." },
+                { subject: "We", verb: "were dividing", example: "We were dividing the profits among all partners." },
+                { subject: "They", verb: "were dividing", example: "They were dividing the territory into different zones." }
+            ]
+        },
+        {
+            name: "Claim",
+            conjugations: [
+                { subject: "I", verb: "was claiming", example: "I was claiming my luggage at the airport when it happened." },
+                { subject: "You", verb: "were claiming", example: "You were claiming innocence throughout the trial." },
+                { subject: "He/She", verb: "was claiming", example: "She was claiming ownership of the abandoned property." },
+                { subject: "We", verb: "were claiming", example: "We were claiming our rights as citizens." },
+                { subject: "They", verb: "were claiming", example: "They were claiming responsibility for the success." }
+            ]
+        },
+        {
+            name: "Practice",
+            conjugations: [
+                { subject: "I", verb: "was practicing", example: "I was practicing piano when the neighbors complained." },
+                { subject: "You", verb: "were practicing", example: "You were practicing your presentation all morning." },
+                { subject: "He/She", verb: "was practicing", example: "She was practicing medicine in a rural clinic." },
+                { subject: "We", verb: "were practicing", example: "We were practicing for the upcoming performance." },
+                { subject: "They", verb: "were practicing", example: "They were practicing their dance routine daily." }
+            ]
+        },
+        {
+            name: "Mention",
+            conjugations: [
+                { subject: "I", verb: "was mentioning", example: "I was mentioning your achievements to the committee." },
+                { subject: "You", verb: "were mentioning", example: "You were mentioning this problem in every meeting." },
+                { subject: "He/She", verb: "was mentioning", example: "He was mentioning the deadline repeatedly." },
+                { subject: "We", verb: "were mentioning", example: "We were mentioning the budget concerns to management." },
+                { subject: "They", verb: "were mentioning", example: "They were mentioning possible solutions during the discussion." }
+            ]
+        },
+        {
+            name: "Encourage",
+            conjugations: [
+                { subject: "I", verb: "was encouraging", example: "I was encouraging my daughter to pursue her dreams." },
+                { subject: "You", verb: "were encouraging", example: "You were encouraging everyone to participate actively." },
+                { subject: "He/She", verb: "was encouraging", example: "She was encouraging students to ask questions." },
+                { subject: "We", verb: "were encouraging", example: "We were encouraging innovation in the workplace." },
+                { subject: "They", verb: "were encouraging", example: "They were encouraging community involvement." }
+            ]
+        },
+        {
+            name: "Request",
+            conjugations: [
+                { subject: "I", verb: "was requesting", example: "I was requesting additional time to complete the project." },
+                { subject: "You", verb: "were requesting", example: "You were requesting a meeting with the director." },
+                { subject: "He/She", verb: "was requesting", example: "She was requesting permission to leave early." },
+                { subject: "We", verb: "were requesting", example: "We were requesting more resources for the department." },
+                { subject: "They", verb: "were requesting", example: "They were requesting clarification on the new policy." }
+            ]
+        },
+        {
+            name: "Test",
+            conjugations: [
+                { subject: "I", verb: "was testing", example: "I was testing the new software when I found the bug." },
+                { subject: "You", verb: "were testing", example: "You were testing your limits with that workout." },
+                { subject: "He/She", verb: "was testing", example: "She was testing students on their knowledge." },
+                { subject: "We", verb: "were testing", example: "We were testing different marketing strategies." },
+                { subject: "They", verb: "were testing", example: "They were testing the water quality regularly." }
+            ]
+        },
+        {
+            name: "Fly",
+            conjugations: [
+                { subject: "I", verb: "was flying", example: "I was flying to London when the storm hit." },
+                { subject: "You", verb: "were flying", example: "You were flying the drone over the countryside." },
+                { subject: "He/She", verb: "was flying", example: "She was flying solo for the first time." },
+                { subject: "We", verb: "were flying", example: "We were flying at cruising altitude." },
+                { subject: "They", verb: "were flying", example: "They were flying in formation during the airshow." }
+            ]
+        },
+        {
+            name: "Push",
+            conjugations: [
+                { subject: "I", verb: "was pushing", example: "I was pushing the heavy cart up the ramp." },
+                { subject: "You", verb: "were pushing", example: "You were pushing yourself too hard at the gym." },
+                { subject: "He/She", verb: "was pushing", example: "He was pushing for immediate action on the issue." },
+                { subject: "We", verb: "were pushing", example: "We were pushing the deadline back by a week." },
+                { subject: "They", verb: "were pushing", example: "They were pushing the boundaries of technology." }
+            ]
+        },
+        {
+            name: "Disappear",
+            conjugations: [
+                { subject: "I", verb: "was disappearing", example: "I was disappearing into the crowd when you spotted me." },
+                { subject: "You", verb: "were disappearing", example: "You were disappearing from social events lately." },
+                { subject: "He/She", verb: "was disappearing", example: "The magician was disappearing right before our eyes." },
+                { subject: "We", verb: "were disappearing", example: "We were disappearing one by one from the party." },
+                { subject: "They", verb: "were disappearing", example: "They were disappearing without explanation." }
+            ]
+        },
+        {
+            name: "Examine",
+            conjugations: [
+                { subject: "I", verb: "was examining", example: "I was examining the evidence when you arrived." },
+                { subject: "You", verb: "were examining", example: "You were examining all possible options carefully." },
+                { subject: "He/She", verb: "was examining", example: "The doctor was examining the patient thoroughly." },
+                { subject: "We", verb: "were examining", example: "We were examining the financial reports together." },
+                { subject: "They", verb: "were examining", example: "They were examining the crime scene for clues." }
+            ]
+        },
+        {
+            name: "Count",
+            conjugations: [
+                { subject: "I", verb: "was counting", example: "I was counting the money when the phone rang." },
+                { subject: "You", verb: "were counting", example: "You were counting on me to help with the project." },
+                { subject: "He/She", verb: "was counting", example: "She was counting sheep to fall asleep." },
+                { subject: "We", verb: "were counting", example: "We were counting the votes from the election." },
+                { subject: "They", verb: "were counting", example: "They were counting inventory all morning." }
+            ]
+        },
+        {
+            name: "Reflect",
+            conjugations: [
+                { subject: "I", verb: "was reflecting", example: "I was reflecting on my life choices during the vacation." },
+                { subject: "You", verb: "were reflecting", example: "You were reflecting the sunlight with that mirror." },
+                { subject: "He/She", verb: "was reflecting", example: "He was reflecting on his mistakes from the past." },
+                { subject: "We", verb: "were reflecting", example: "We were reflecting on the company's achievements." },
+                { subject: "They", verb: "were reflecting", example: "They were reflecting the values of their organization." }
+            ]
+        },
+        {
+            name: "Rely",
+            conjugations: [
+                { subject: "I", verb: "was relying", example: "I was relying on public transportation to get to work." },
+                { subject: "You", verb: "were relying", example: "You were relying too heavily on outdated information." },
+                { subject: "He/She", verb: "was relying", example: "She was relying on her team to complete the task." },
+                { subject: "We", verb: "were relying", example: "We were relying on the weather forecast for our plans." },
+                { subject: "They", verb: "were relying", example: "They were relying on donations to fund the project." }
+            ]
+        },
+        {
+            name: "Influence",
+            conjugations: [
+                { subject: "I", verb: "was influencing", example: "I was influencing the decision through careful persuasion." },
+                { subject: "You", verb: "were influencing", example: "You were influencing others with your positive attitude." },
+                { subject: "He/She", verb: "was influencing", example: "She was influencing policy changes at the highest level." },
+                { subject: "We", verb: "were influencing", example: "We were influencing public opinion through our campaign." },
+                { subject: "They", verb: "were influencing", example: "They were influencing market trends with their innovations." }
+            ]
+        },
+        {
+            name: "Hide",
+            conjugations: [
+                { subject: "I", verb: "was hiding", example: "I was hiding the surprise gift in the closet." },
+                { subject: "You", verb: "were hiding", example: "You were hiding your true feelings about the situation." },
+                { subject: "He/She", verb: "was hiding", example: "He was hiding behind the tree during the game." },
+                { subject: "We", verb: "were hiding", example: "We were hiding from the rain under the bridge." },
+                { subject: "They", verb: "were hiding", example: "They were hiding important information from us." }
+            ]
+        },
+        {
+            name: "Address",
+            conjugations: [
+                { subject: "I", verb: "was addressing", example: "I was addressing the envelope when you knocked." },
+                { subject: "You", verb: "were addressing", example: "You were addressing the crowd with confidence." },
+                { subject: "He/She", verb: "was addressing", example: "She was addressing the concerns of the employees." },
+                { subject: "We", verb: "were addressing", example: "We were addressing the technical issues systematically." },
+                { subject: "They", verb: "were addressing", example: "They were addressing the budget shortfall." }
+            ]
+        },
+        {
+            name: "Record",
+            conjugations: [
+                { subject: "I", verb: "was recording", example: "I was recording the meeting when the power went out." },
+                { subject: "You", verb: "were recording", example: "You were recording your best time in the marathon." },
+                { subject: "He/She", verb: "was recording", example: "She was recording her first album in the studio." },
+                { subject: "We", verb: "were recording", example: "We were recording all the transactions carefully." },
+                { subject: "They", verb: "were recording", example: "They were recording wildlife sounds in the forest." }
+            ]
+        },
+        {
+            name: "Fail",
+            conjugations: [
+                { subject: "I", verb: "was failing", example: "I was failing the course until I got a tutor." },
+                { subject: "You", verb: "were failing", example: "You were failing to see the bigger picture." },
+                { subject: "He/She", verb: "was failing", example: "The system was failing under the heavy load." },
+                { subject: "We", verb: "were failing", example: "We were failing to meet our sales targets." },
+                { subject: "They", verb: "were failing", example: "They were failing to communicate effectively." }
+            ]
+        },
+        {
+            name: "Indicate",
+            conjugations: [
+                { subject: "I", verb: "was indicating", example: "I was indicating the direction with hand gestures." },
+                { subject: "You", verb: "were indicating", example: "You were indicating your preferences clearly." },
+                { subject: "He/She", verb: "was indicating", example: "The data was indicating a positive trend." },
+                { subject: "We", verb: "were indicating", example: "We were indicating our support for the proposal." },
+                { subject: "They", verb: "were indicating", example: "They were indicating possible solutions to the problem." }
+            ]
+        },
+        {
+            name: "Represent",
+            conjugations: [
+                { subject: "I", verb: "was representing", example: "I was representing the company at the trade conference." },
+                { subject: "You", verb: "were representing", example: "You were representing your country in the Olympics." },
+                { subject: "He/She", verb: "was representing", example: "She was representing the defendant in court." },
+                { subject: "We", verb: "were representing", example: "We were representing different viewpoints in the debate." },
+                { subject: "They", verb: "were representing", example: "They were representing the interests of small businesses." }
+            ]
+        },
+        {
+            name: "Print",
+            conjugations: [
+                { subject: "I", verb: "was printing", example: "I was printing the documents when the printer jammed." },
+                { subject: "You", verb: "were printing", example: "You were printing photos from your vacation." },
+                { subject: "He/She", verb: "was printing", example: "She was printing business cards for the event." },
+                { subject: "We", verb: "were printing", example: "We were printing flyers for the campaign." },
+                { subject: "They", verb: "were printing", example: "They were printing books at the publishing house." }
+            ]
+        },
+        {
+            name: "Release",
+            conjugations: [
+                { subject: "I", verb: "was releasing", example: "I was releasing the balloon into the sky." },
+                { subject: "You", verb: "were releasing", example: "You were releasing stress through meditation." },
+                { subject: "He/She", verb: "was releasing", example: "The company was releasing a new product line." },
+                { subject: "We", verb: "were releasing", example: "We were releasing the captured animals back to nature." },
+                { subject: "They", verb: "were releasing", example: "They were releasing information to the public." }
+            ]
+        },
+        {
+            name: "Protect",
+            conjugations: [
+                { subject: "I", verb: "was protecting", example: "I was protecting my family from the dangerous situation." },
+                { subject: "You", verb: "were protecting", example: "You were protecting your investment portfolio." },
+                { subject: "He/She", verb: "was protecting", example: "She was protecting the environment through activism." },
+                { subject: "We", verb: "were protecting", example: "We were protecting our data with encryption." },
+                { subject: "They", verb: "were protecting", example: "They were protecting the witnesses during the trial." }
+            ]
+        },
+        {
+            name: "Suffer",
+            conjugations: [
+                { subject: "I", verb: "was suffering", example: "I was suffering from a severe headache all day." },
+                { subject: "You", verb: "were suffering", example: "You were suffering in silence about the situation." },
+                { subject: "He/She", verb: "was suffering", example: "He was suffering from the effects of the injury." },
+                { subject: "We", verb: "were suffering", example: "We were suffering financial losses during the recession." },
+                { subject: "They", verb: "were suffering", example: "They were suffering from the lack of resources." }
+            ]
+        },
+        {
+            name: "Intend",
+            conjugations: [
+                { subject: "I", verb: "was intending", example: "I was intending to call you later." },
+                { subject: "You", verb: "were intending", example: "You were intending to start the project next week." },
+                { subject: "He/She", verb: "was intending", example: "He was intending to apply for the position." },
+                { subject: "We", verb: "were intending", example: "We were intending to renovate the house." },
+                { subject: "They", verb: "were intending", example: "They were intending to join us for dinner." }
+            ]
+        },
+        {
+            name: "Confirm",
+            conjugations: [
+                { subject: "I", verb: "was confirming", example: "I was confirming the reservation over the phone." },
+                { subject: "You", verb: "were confirming", example: "You were confirming the meeting schedule." },
+                { subject: "He/She", verb: "was confirming", example: "She was confirming her attendance." },
+                { subject: "We", verb: "were confirming", example: "We were confirming the delivery date." },
+                { subject: "They", verb: "were confirming", example: "They were confirming the details of the contract." }
+            ]
+        },
+        {
+            name: "Kiss",
+            conjugations: [
+                { subject: "I", verb: "was kissing", example: "I was kissing her goodbye at the station." },
+                { subject: "You", verb: "were kissing", example: "You were kissing the baby gently." },
+                { subject: "He/She", verb: "was kissing", example: "He was kissing her on the cheek." },
+                { subject: "We", verb: "were kissing", example: "We were kissing under the mistletoe." },
+                { subject: "They", verb: "were kissing", example: "They were kissing passionately in the rain." }
+            ]
+        },
+        {
+            name: "Seek",
+            conjugations: [
+                { subject: "I", verb: "was seeking", example: "I was seeking advice from a mentor." },
+                { subject: "You", verb: "were seeking", example: "You were seeking new opportunities abroad." },
+                { subject: "He/She", verb: "was seeking", example: "She was seeking a better work-life balance." },
+                { subject: "We", verb: "were seeking", example: "We were seeking answers to our questions." },
+                { subject: "They", verb: "were seeking", example: "They were seeking shelter from the storm." }
+            ]
+        },
+        {
+            name: "Review",
+            conjugations: [
+                { subject: "I", verb: "was reviewing", example: "I was reviewing the final report before submission." },
+                { subject: "You", verb: "were reviewing", example: "You were reviewing your notes for the exam." },
+                { subject: "He/She", verb: "was reviewing", example: "He was reviewing the budget proposals carefully." },
+                { subject: "We", verb: "were reviewing", example: "We were reviewing customer feedback." },
+                { subject: "They", verb: "were reviewing", example: "They were reviewing the terms of the agreement." }
+            ]
+        },
+        {
+            name: "Acquire",
+            conjugations: [
+                { subject: "I", verb: "was acquiring", example: "I was acquiring new skills through online courses." },
+                { subject: "You", verb: "were acquiring", example: "You were acquiring real estate properties last year." },
+                { subject: "He/She", verb: "was acquiring", example: "She was acquiring experience in the tech field." },
+                { subject: "We", verb: "were acquiring", example: "We were acquiring customers at a rapid pace." },
+                { subject: "They", verb: "were acquiring", example: "They were acquiring knowledge from various sources." }
+            ]
+        },
+        {
+            name: "Benefit",
+            conjugations: [
+                { subject: "I", verb: "was benefiting", example: "I was benefiting from the new policy." },
+                { subject: "You", verb: "were benefiting", example: "You were benefiting from regular exercise." },
+                { subject: "He/She", verb: "was benefiting", example: "He was benefiting from early retirement." },
+                { subject: "We", verb: "were benefiting", example: "We were benefiting from the financial support." },
+                { subject: "They", verb: "were benefiting", example: "They were benefiting from the updated software." }
+            ]
+        },
+        {
+            name: "Hang",
+            conjugations: [
+                { subject: "I", verb: "was hanging", example: "I was hanging the painting in the living room." },
+                { subject: "You", verb: "were hanging", example: "You were hanging your clothes to dry." },
+                { subject: "He/She", verb: "was hanging", example: "He was hanging out with friends all evening." },
+                { subject: "We", verb: "were hanging", example: "We were hanging decorations for the party." },
+                { subject: "They", verb: "were hanging", example: "They were hanging around near the park entrance." }
+            ]
+        },
+        {
+            name: "Relate",
+            conjugations: [
+                { subject: "I", verb: "was relating", example: "I was relating my experience to the group." },
+                { subject: "You", verb: "were relating", example: "You were relating the events clearly." },
+                { subject: "He/She", verb: "was relating", example: "She was relating the story in great detail." },
+                { subject: "We", verb: "were relating", example: "We were relating better after the discussion." },
+                { subject: "They", verb: "were relating", example: "They were relating the incident to the police." }
+            ]
+        },
+        {
+            name: "Mix",
+            conjugations: [
+                { subject: "I", verb: "was mixing", example: "I was mixing the ingredients for the cake." },
+                { subject: "You", verb: "were mixing", example: "You were mixing paint for the mural." },
+                { subject: "He/She", verb: "was mixing", example: "He was mixing the audio tracks in the studio." },
+                { subject: "We", verb: "were mixing", example: "We were mixing up the teams for the match." },
+                { subject: "They", verb: "were mixing", example: "They were mixing traditional and modern styles." }
+            ]
+        },
+        {
+            name: "Function",
+            conjugations: [
+                { subject: "I", verb: "was functioning", example: "I was functioning on very little sleep." },
+                { subject: "You", verb: "were functioning", example: "You were functioning well under pressure." },
+                { subject: "He/She", verb: "was functioning", example: "The device was functioning without issues." },
+                { subject: "We", verb: "were functioning", example: "We were functioning as a team." },
+                { subject: "They", verb: "were functioning", example: "They were functioning independently from the main system." }
+            ]
+        },
+        {
+            name: "Establish",
+            conjugations: [
+                { subject: "I", verb: "was establishing", example: "I was establishing my business in the city." },
+                { subject: "You", verb: "were establishing", example: "You were establishing your reputation." },
+                { subject: "He/She", verb: "was establishing", example: "She was establishing contact with new clients." },
+                { subject: "We", verb: "were establishing", example: "We were establishing clear communication channels." },
+                { subject: "They", verb: "were establishing", example: "They were establishing a new branch overseas." }
+            ]
+        },
+        {
+            name: "Engage",
+            conjugations: [
+                { subject: "I", verb: "was engaging", example: "I was engaging in meaningful conversations." },
+                { subject: "You", verb: "were engaging", example: "You were engaging the audience effectively." },
+                { subject: "He/She", verb: "was engaging", example: "He was engaging with the community regularly." },
+                { subject: "We", verb: "were engaging", example: "We were engaging students in group activities." },
+                { subject: "They", verb: "were engaging", example: "They were engaging in strategic planning." }
+            ]
+        },
+        {
+            name: "Contain",
+            conjugations: [
+                { subject: "I", verb: "was containing", example: "I was containing my excitement during the speech." },
+                { subject: "You", verb: "were containing", example: "You were containing the spill with paper towels." },
+                { subject: "He/She", verb: "was containing", example: "She was containing her emotions at the meeting." },
+                { subject: "We", verb: "were containing", example: "We were containing the spread of misinformation." },
+                { subject: "They", verb: "were containing", example: "They were containing the fire before help arrived." }
+            ]
+        },
+        {
+            name: "Arrange",
+            conjugations: [
+                { subject: "I", verb: "was arranging", example: "I was arranging flowers for the wedding." },
+                { subject: "You", verb: "were arranging", example: "You were arranging your schedule around the event." },
+                { subject: "He/She", verb: "was arranging", example: "He was arranging transportation for the guests." },
+                { subject: "We", verb: "were arranging", example: "We were arranging the furniture in the new apartment." },
+                { subject: "They", verb: "were arranging", example: "They were arranging a surprise party." }
+            ]
+        },
+        {
+            name: "Thank",
+            conjugations: [
+                { subject: "I", verb: "was thanking", example: "I was thanking everyone for their support." },
+                { subject: "You", verb: "were thanking", example: "You were thanking the host for the invitation." },
+                { subject: "He/She", verb: "was thanking", example: "She was thanking the staff after the event." },
+                { subject: "We", verb: "were thanking", example: "We were thanking our mentors publicly." },
+                { subject: "They", verb: "were thanking", example: "They were thanking their fans on social media." }
+            ]
+        },
+        {
+            name: "Shake",
+            conjugations: [
+                { subject: "I", verb: "was shaking", example: "I was shaking with laughter during the show." },
+                { subject: "You", verb: "were shaking", example: "You were shaking the bottle before opening it." },
+                { subject: "He/She", verb: "was shaking", example: "He was shaking hands with every guest." },
+                { subject: "We", verb: "were shaking", example: "We were shaking off the cold after the hike." },
+                { subject: "They", verb: "were shaking", example: "They were shaking the rug to clean it." }
+            ]
+        },
+        {
+            name: "Adopt",
+            conjugations: [
+                { subject: "I", verb: "was adopting", example: "I was adopting a new lifestyle." },
+                { subject: "You", verb: "were adopting", example: "You were adopting innovative techniques." },
+                { subject: "He/She", verb: "was adopting", example: "She was adopting a child from abroad." },
+                { subject: "We", verb: "were adopting", example: "We were adopting better security measures." },
+                { subject: "They", verb: "were adopting", example: "They were adopting animals from the shelter." }
+            ]
+        },
+        {
+            name: "Access",
+            conjugations: [
+                { subject: "I", verb: "was accessing", example: "I was accessing files on the server." },
+                { subject: "You", verb: "were accessing", example: "You were accessing your account remotely." },
+                { subject: "He/She", verb: "was accessing", example: "He was accessing the database from his laptop." },
+                { subject: "We", verb: "were accessing", example: "We were accessing resources for the research." },
+                { subject: "They", verb: "were accessing", example: "They were accessing the online portal." }
+            ]
+        },
+        {
+            name: "Intend",
+            conjugations: [
+                { subject: "I", verb: "was intending", example: "I was intending to reply sooner." },
+                { subject: "You", verb: "were intending", example: "You were intending to leave early." },
+                { subject: "He/She", verb: "was intending", example: "She was intending to file a complaint." },
+                { subject: "We", verb: "were intending", example: "We were intending to visit them soon." },
+                { subject: "They", verb: "were intending", example: "They were intending to change the policy." }
+            ]
+        },
+        {
+            name: "Hire",
+            conjugations: [
+                { subject: "I", verb: "was hiring", example: "I was hiring new staff for the summer season." },
+                { subject: "You", verb: "were hiring", example: "You were hiring a freelancer to complete the project." },
+                { subject: "He/She", verb: "was hiring", example: "She was hiring people with specific skills." },
+                { subject: "We", verb: "were hiring", example: "We were hiring additional workers for the holiday rush." },
+                { subject: "They", verb: "were hiring", example: "They were hiring based on experience and attitude." }
+            ]
+        },
+        {
+            name: "Define",
+            conjugations: [
+                { subject: "I", verb: "was defining", example: "I was defining the key concepts for the class." },
+                { subject: "You", verb: "were defining", example: "You were defining your role more clearly." },
+                { subject: "He/She", verb: "was defining", example: "He was defining the boundaries of the problem." },
+                { subject: "We", verb: "were defining", example: "We were defining new procedures for the team." },
+                { subject: "They", verb: "were defining", example: "They were defining what success looked like." }
+            ]
+        },
+        {
+            name: "Contribute",
+            conjugations: [
+                { subject: "I", verb: "was contributing", example: "I was contributing to the group discussion." },
+                { subject: "You", verb: "were contributing", example: "You were contributing ideas during the brainstorming session." },
+                { subject: "He/She", verb: "was contributing", example: "She was contributing financially to the project." },
+                { subject: "We", verb: "were contributing", example: "We were contributing our time to the charity." },
+                { subject: "They", verb: "were contributing", example: "They were contributing useful data to the report." }
+            ]
+        },
+        {
+            name: "Swim",
+            conjugations: [
+                { subject: "I", verb: "was swimming", example: "I was swimming in the lake early this morning." },
+                { subject: "You", verb: "were swimming", example: "You were swimming laps at the gym." },
+                { subject: "He/She", verb: "was swimming", example: "He was swimming faster than anyone else." },
+                { subject: "We", verb: "were swimming", example: "We were swimming under the stars last night." },
+                { subject: "They", verb: "were swimming", example: "They were swimming in the pool when the thunderstorm began." }
+            ]
+        },
+        {
+            name: "Launch",
+            conjugations: [
+                { subject: "I", verb: "was launching", example: "I was launching a new product line last year." },
+                { subject: "You", verb: "were launching", example: "You were launching your startup when we met." },
+                { subject: "He/She", verb: "was launching", example: "She was launching the website after months of work." },
+                { subject: "We", verb: "were launching", example: "We were launching the campaign with a live event." },
+                { subject: "They", verb: "were launching", example: "They were launching several new services at once." }
+            ]
+        },
+        {
+            name: "Cross",
+            conjugations: [
+                { subject: "I", verb: "was crossing", example: "I was crossing the street when it started to rain." },
+                { subject: "You", verb: "were crossing", example: "You were crossing the finish line just in time." },
+                { subject: "He/She", verb: "was crossing", example: "He was crossing into unfamiliar territory." },
+                { subject: "We", verb: "were crossing", example: "We were crossing the mountains during our hike." },
+                { subject: "They", verb: "were crossing", example: "They were crossing the border when we met them." }
+            ]
+        },
+        {
+            name: "Express",
+            conjugations: [
+                { subject: "I", verb: "was expressing", example: "I was expressing my thoughts openly." },
+                { subject: "You", verb: "were expressing", example: "You were expressing your emotions clearly." },
+                { subject: "He/She", verb: "was expressing", example: "She was expressing her opinion without fear." },
+                { subject: "We", verb: "were expressing", example: "We were expressing solidarity with the cause." },
+                { subject: "They", verb: "were expressing", example: "They were expressing gratitude for the help received." }
+            ]
+        },
+        {
+            name: "Transfer",
+            conjugations: [
+                { subject: "I", verb: "was transferring", example: "I was transferring the files to my laptop." },
+                { subject: "You", verb: "were transferring", example: "You were transferring your credits to a new school." },
+                { subject: "He/She", verb: "was transferring", example: "He was transferring money to his family." },
+                { subject: "We", verb: "were transferring", example: "We were transferring the patient to another hospital." },
+                { subject: "They", verb: "were transferring", example: "They were transferring ownership of the company." }
+            ]
+        },
+        {
+            name: "Detect",
+            conjugations: [
+                { subject: "I", verb: "was detecting", example: "I was detecting a strange noise in the engine." },
+                { subject: "You", verb: "were detecting", example: "You were detecting subtle changes in behavior." },
+                { subject: "He/She", verb: "was detecting", example: "She was detecting early signs of the disease." },
+                { subject: "We", verb: "were detecting", example: "We were detecting issues with the signal." },
+                { subject: "They", verb: "were detecting", example: "They were detecting movement in the security footage." }
+            ]
+        },
+        {
+            name: "Evaluate",
+            conjugations: [
+                { subject: "I", verb: "was evaluating", example: "I was evaluating the candidates for the position." },
+                { subject: "You", verb: "were evaluating", example: "You were evaluating your performance after the exam." },
+                { subject: "He/She", verb: "was evaluating", example: "He was evaluating the financial risk involved." },
+                { subject: "We", verb: "were evaluating", example: "We were evaluating the effectiveness of the campaign." },
+                { subject: "They", verb: "were evaluating", example: "They were evaluating customer feedback carefully." }
+            ]
+        },
+        {
+            name: "Place",
+            conjugations: [
+                { subject: "I", verb: "was placing", example: "I was placing the books on the shelf." },
+                { subject: "You", verb: "were placing", example: "You were placing an order online." },
+                { subject: "He/She", verb: "was placing", example: "He was placing a bet on the game." },
+                { subject: "We", verb: "were placing", example: "We were placing our trust in their leadership." },
+                { subject: "They", verb: "were placing", example: "They were placing the signs around the park." }
+            ]
+        },
+        {
+            name: "Mark",
+            conjugations: [
+                { subject: "I", verb: "was marking", example: "I was marking the important sections of the text." },
+                { subject: "You", verb: "were marking", example: "You were marking attendance for the class." },
+                { subject: "He/She", verb: "was marking", example: "She was marking her calendar for the deadline." },
+                { subject: "We", verb: "were marking", example: "We were marking the trail for future hikers." },
+                { subject: "They", verb: "were marking", example: "They were marking progress with regular updates." }
+            ]
+        },
+        {
+            name: "Secure",
+            conjugations: [
+                { subject: "I", verb: "was securing", example: "I was securing the windows before the storm." },
+                { subject: "You", verb: "were securing", example: "You were securing your luggage with a lock." },
+                { subject: "He/She", verb: "was securing", example: "He was securing a deal with the investors." },
+                { subject: "We", verb: "were securing", example: "We were securing our position in the market." },
+                { subject: "They", verb: "were securing", example: "They were securing the perimeter of the site." }
+            ]
+        },
+        {
+            name: "Qualify",
+            conjugations: [
+                { subject: "I", verb: "was qualifying", example: "I was qualifying for the next round." },
+                { subject: "You", verb: "were qualifying", example: "You were qualifying for the scholarship." },
+                { subject: "He/She", verb: "was qualifying", example: "She was qualifying under the new rules." },
+                { subject: "We", verb: "were qualifying", example: "We were qualifying for the final stage." },
+                { subject: "They", verb: "were qualifying", example: "They were qualifying through consistent performance." }
+            ]
+        },
+        {
+            name: "Settle",
+            conjugations: [
+                { subject: "I", verb: "was settling", example: "I was settling into my new apartment." },
+                { subject: "You", verb: "were settling", example: "You were settling the dispute calmly." },
+                { subject: "He/She", verb: "was settling", example: "He was settling his debts gradually." },
+                { subject: "We", verb: "were settling", example: "We were settling down after the move." },
+                { subject: "They", verb: "were settling", example: "They were settling in a new country." }
+            ]
+        },
+        {
+            name: "Fold",
+            conjugations: [
+                { subject: "I", verb: "was folding", example: "I was folding the laundry when you called." },
+                { subject: "You", verb: "were folding", example: "You were folding paper into shapes." },
+                { subject: "He/She", verb: "was folding", example: "She was folding the napkins for the table." },
+                { subject: "We", verb: "were folding", example: "We were folding tents after the event." },
+                { subject: "They", verb: "were folding", example: "They were folding their chairs to leave." }
+            ]
+        },
+        {
+            name: "Design",
+            conjugations: [
+                { subject: "I", verb: "was designing", example: "I was designing a new logo for the brand." },
+                { subject: "You", verb: "were designing", example: "You were designing your dream home." },
+                { subject: "He/She", verb: "was designing", example: "He was designing user-friendly interfaces." },
+                { subject: "We", verb: "were designing", example: "We were designing posters for the event." },
+                { subject: "They", verb: "were designing", example: "They were designing clothes for the next season." }
+            ]
+        },
+        {
+            name: "Hurt",
+            conjugations: [
+                { subject: "I", verb: "was hurting", example: "I was hurting after the long workout." },
+                { subject: "You", verb: "were hurting", example: "You were hurting from the breakup." },
+                { subject: "He/She", verb: "was hurting", example: "He was hurting his chances by being late." },
+                { subject: "We", verb: "were hurting", example: "We were hurting from the recent loss." },
+                { subject: "They", verb: "were hurting", example: "They were hurting after the defeat." }
+            ]
+        },
+        {
+            name: "Operate",
+            conjugations: [
+                { subject: "I", verb: "was operating", example: "I was operating the machinery carefully." },
+                { subject: "You", verb: "were operating", example: "You were operating the drone during the test." },
+                { subject: "He/She", verb: "was operating", example: "She was operating the system remotely." },
+                { subject: "We", verb: "were operating", example: "We were operating under strict protocols." },
+                { subject: "They", verb: "were operating", example: "They were operating heavy equipment." }
+            ]
+        },
+        {
+            name: "Recover",
+            conjugations: [
+                { subject: "I", verb: "was recovering", example: "I was recovering from the surgery." },
+                { subject: "You", verb: "were recovering", example: "You were recovering from a cold." },
+                { subject: "He/She", verb: "was recovering", example: "He was recovering lost data." },
+                { subject: "We", verb: "were recovering", example: "We were recovering from the financial crisis." },
+                { subject: "They", verb: "were recovering", example: "They were recovering after a long journey." }
+            ]
+        },
+        {
+            name: "Tie",
+            conjugations: [
+                { subject: "I", verb: "was tying", example: "I was tying my shoes before going out." },
+                { subject: "You", verb: "were tying", example: "You were tying the ropes securely." },
+                { subject: "He/She", verb: "was tying", example: "He was tying the gift with a ribbon." },
+                { subject: "We", verb: "were tying", example: "We were tying flags to the poles." },
+                { subject: "They", verb: "were tying", example: "They were tying up loose ends on the project." }
+            ]
+        },
+         {
+            name: "Roll",
+            conjugations: [
+                { subject: "I", verb: "was rolling", example: "I was rolling the ball across the field." },
+                { subject: "You", verb: "were rolling", example: "You were rolling the dice to start the game." },
+                { subject: "He/She", verb: "was rolling", example: "He was rolling the barrel up the hill." },
+                { subject: "We", verb: "were rolling", example: "We were rolling the logs to clear the path." },
+                { subject: "They", verb: "were rolling", example: "They were rolling out the new software update." }
+            ]
+        },
+        {
+            name: "Differ",
+            conjugations: [
+                { subject: "I", verb: "was differing", example: "I was differing in opinion during the meeting." },
+                { subject: "You", verb: "were differing", example: "You were differing from the group’s viewpoint." },
+                { subject: "He/She", verb: "was differing", example: "She was differing on some details of the plan." },
+                { subject: "We", verb: "were differing", example: "We were differing in how to approach the problem." },
+                { subject: "They", verb: "were differing", example: "They were differing about the best solution." }
+            ]
+        },
+        {
+            name: "Promote",
+            conjugations: [
+                { subject: "I", verb: "was promoting", example: "I was promoting the new product at the event." },
+                { subject: "You", verb: "were promoting", example: "You were promoting the campaign on social media." },
+                { subject: "He/She", verb: "was promoting", example: "He was promoting the company’s services." },
+                { subject: "We", verb: "were promoting", example: "We were promoting awareness about the issue." },
+                { subject: "They", verb: "were promoting", example: "They were promoting discounts to attract customers." }
+            ]
+        },
+        {
+            name: "Attack",
+            conjugations: [
+                { subject: "I", verb: "was attacking", example: "I was attacking the problem from a new angle." },
+                { subject: "You", verb: "were attacking", example: "You were attacking the issue with determination." },
+                { subject: "He/She", verb: "was attacking", example: "She was attacking the opponent’s defense." },
+                { subject: "We", verb: "were attacking", example: "We were attacking the errors in the system." },
+                { subject: "They", verb: "were attacking", example: "They were attacking the fort during the battle." }
+            ]
+        },
+        {
+            name: "Sign",
+            conjugations: [
+                { subject: "I", verb: "was signing", example: "I was signing the documents carefully." },
+                { subject: "You", verb: "were signing", example: "You were signing up for the new course." },
+                { subject: "He/She", verb: "was signing", example: "He was signing the contract yesterday." },
+                { subject: "We", verb: "were signing", example: "We were signing petitions for the cause." },
+                { subject: "They", verb: "were signing", example: "They were signing autographs after the show." }
+            ]
+        },
+        {
+            name: "Inform",
+            conjugations: [
+                { subject: "I", verb: "was informing", example: "I was informing the team about the schedule changes." },
+                { subject: "You", verb: "were informing", example: "You were informing customers about the updates." },
+                { subject: "He/She", verb: "was informing", example: "She was informing management of the issue." },
+                { subject: "We", verb: "were informing", example: "We were informing the public through announcements." },
+                { subject: "They", verb: "were informing", example: "They were informing the press about the event." }
+            ]
+        },
+        {
+            name: "Note",
+            conjugations: [
+                { subject: "I", verb: "was noting", example: "I was noting down important points during the lecture." },
+                { subject: "You", verb: "were noting", example: "You were noting changes in the experiment results." },
+                { subject: "He/She", verb: "was noting", example: "He was noting the errors in the report." },
+                { subject: "We", verb: "were noting", example: "We were noting customer feedback carefully." },
+                { subject: "They", verb: "were noting", example: "They were noting the dates of upcoming meetings." }
+            ]
+        },
+        {
+            name: "Spread",
+            conjugations: [
+                { subject: "I", verb: "was spreading", example: "I was spreading the news about the fundraiser." },
+                { subject: "You", verb: "were spreading", example: "You were spreading the butter on the bread." },
+                { subject: "He/She", verb: "was spreading", example: "She was spreading the map on the table." },
+                { subject: "We", verb: "were spreading", example: "We were spreading awareness in the community." },
+                { subject: "They", verb: "were spreading", example: "They were spreading the seeds across the field." }
+            ]
+        },
+        {
+            name: "Form",
+            conjugations: [
+                { subject: "I", verb: "was forming", example: "I was forming a new team for the project." },
+                { subject: "You", verb: "were forming", example: "You were forming connections with local businesses." },
+                { subject: "He/She", verb: "was forming", example: "He was forming a plan to improve sales." },
+                { subject: "We", verb: "were forming", example: "We were forming a strategy to reach more clients." },
+                { subject: "They", verb: "were forming", example: "They were forming a line for the entrance." }
+            ]
+        },
+        {
+            name: "Worry",
+            conjugations: [
+                { subject: "I", verb: "was worrying", example: "I was worrying about the upcoming exam." },
+                { subject: "You", verb: "were worrying", example: "You were worrying unnecessarily about the results." },
+                { subject: "He/She", verb: "was worrying", example: "She was worrying about the safety of the children." },
+                { subject: "We", verb: "were worrying", example: "We were worrying over the project's delay." },
+                { subject: "They", verb: "were worrying", example: "They were worrying about the financial report." }
+            ]
+        },
+        {
+            name: "Concentrate",
+            conjugations: [
+                { subject: "I", verb: "was concentrating", example: "I was concentrating on solving the complex problem." },
+                { subject: "You", verb: "were concentrating", example: "You were concentrating hard during the presentation." },
+                { subject: "He/She", verb: "was concentrating", example: "He was concentrating on his studies late at night." },
+                { subject: "We", verb: "were concentrating", example: "We were concentrating on finishing the project on time." },
+                { subject: "They", verb: "were concentrating", example: "They were concentrating on their performance." }
+            ]
+        },
+        {
+            name: "Vote",
+            conjugations: [
+                { subject: "I", verb: "was voting", example: "I was voting in the local elections yesterday." },
+                { subject: "You", verb: "were voting", example: "You were voting for the new committee members." },
+                { subject: "He/She", verb: "was voting", example: "She was voting early in the morning." },
+                { subject: "We", verb: "were voting", example: "We were voting on the budget proposal." },
+                { subject: "They", verb: "were voting", example: "They were voting to approve the new policies." }
+            ]
+        },
+        {
+            name: "Extend",
+            conjugations: [
+                { subject: "I", verb: "was extending", example: "I was extending the deadline for the submission." },
+                { subject: "You", verb: "were extending", example: "You were extending your stay by two days." },
+                { subject: "He/She", verb: "was extending", example: "He was extending the warranty period." },
+                { subject: "We", verb: "were extending", example: "We were extending the contract for another year." },
+                { subject: "They", verb: "were extending", example: "They were extending the network coverage." }
+            ]
+        },
+        {
+            name: "Lift",
+            conjugations: [
+                { subject: "I", verb: "was lifting", example: "I was lifting heavy boxes in the warehouse." },
+                { subject: "You", verb: "were lifting", example: "You were lifting weights during your workout." },
+                { subject: "He/She", verb: "was lifting", example: "She was lifting the child carefully." },
+                { subject: "We", verb: "were lifting", example: "We were lifting the furniture to clean underneath." },
+                { subject: "They", verb: "were lifting", example: "They were lifting the equipment onto the truck." }
+            ]
+        },
+        {
+            name: "Catch",
+            conjugations: [
+                { subject: "I", verb: "was catching", example: "I was catching the ball during practice." },
+                { subject: "You", verb: "were catching", example: "You were catching the train just in time." },
+                { subject: "He/She", verb: "was catching", example: "He was catching fish by the river." },
+                { subject: "We", verb: "were catching", example: "We were catching errors in the report." },
+                { subject: "They", verb: "were catching", example: "They were catching up on lost work." }
+            ]
+        },
+        {
+            name: "Combine",
+            conjugations: [
+                { subject: "I", verb: "was combining", example: "I was combining different ideas for the project." },
+                { subject: "You", verb: "were combining", example: "You were combining ingredients for the recipe." },
+                { subject: "He/She", verb: "was combining", example: "She was combining efforts to improve the system." },
+                { subject: "We", verb: "were combining", example: "We were combining our skills to complete the task." },
+                { subject: "They", verb: "were combining", example: "They were combining resources to fund the initiative." }
+            ]
+        },
+        {
+            name: "Propose",
+            conjugations: [
+                { subject: "I", verb: "was proposing", example: "I was proposing a new plan during the meeting." },
+                { subject: "You", verb: "were proposing", example: "You were proposing changes to the schedule." },
+                { subject: "He/She", verb: "was proposing", example: "He was proposing a solution to the problem." },
+                { subject: "We", verb: "were proposing", example: "We were proposing a partnership with the company." },
+                { subject: "They", verb: "were proposing", example: "They were proposing amendments to the policy." }
+            ]
+        },
+        {
+            name: "Celebrate",
+            conjugations: [
+                { subject: "I", verb: "was celebrating", example: "I was celebrating my birthday with close friends." },
+                { subject: "You", verb: "were celebrating", example: "You were celebrating the team's victory together." },
+                { subject: "He/She", verb: "was celebrating", example: "She was celebrating her promotion at work." },
+                { subject: "We", verb: "were celebrating", example: "We were celebrating the successful project completion." },
+                { subject: "They", verb: "were celebrating", example: "They were celebrating the holiday with family." }
+            ]
+        },
+        {
+            name: "Supply",
+            conjugations: [
+                { subject: "I", verb: "was supplying", example: "I was supplying materials for the construction." },
+                { subject: "You", verb: "were supplying", example: "You were supplying data for the report." },
+                { subject: "He/She", verb: "was supplying", example: "He was supplying parts to the assembly line." },
+                { subject: "We", verb: "were supplying", example: "We were supplying support during the event." },
+                { subject: "They", verb: "were supplying", example: "They were supplying food to the shelter." }
+            ]
+        },
+        {
+            name: "Link",
+            conjugations: [
+                { subject: "I", verb: "was linking", example: "I was linking the documents together." },
+                { subject: "You", verb: "were linking", example: "You were linking accounts for easier access." },
+                { subject: "He/She", verb: "was linking", example: "She was linking ideas in her presentation." },
+                { subject: "We", verb: "were linking", example: "We were linking the database to the website." },
+                { subject: "They", verb: "were linking", example: "They were linking the network devices." }
+            ]
+        },
+        {
+            name: "Demand",
+            conjugations: [
+                { subject: "I", verb: "was demanding", example: "I was demanding an explanation for the delay." },
+                { subject: "You", verb: "were demanding", example: "You were demanding better working conditions." },
+                { subject: "He/She", verb: "was demanding", example: "He was demanding immediate attention." },
+                { subject: "We", verb: "were demanding", example: "We were demanding changes in policy." },
+                { subject: "They", verb: "were demanding", example: "They were demanding higher wages." }
+            ]
+        },
+        {
+            name: "Destroy",
+            conjugations: [
+                { subject: "I", verb: "was destroying", example: "I was destroying old documents securely." },
+                { subject: "You", verb: "were destroying", example: "You were destroying the broken equipment." },
+                { subject: "He/She", verb: "was destroying", example: "She was destroying the files to protect privacy." },
+                { subject: "We", verb: "were destroying", example: "We were destroying outdated inventory." },
+                { subject: "They", verb: "were destroying", example: "They were destroying the abandoned building." }
+            ]
+        },
+        {
+            name: "Preserve",
+            conjugations: [
+                { subject: "I", verb: "was preserving", example: "I was preserving important historical records." },
+                { subject: "You", verb: "were preserving", example: "You were preserving the natural habitat." },
+                { subject: "He/She", verb: "was preserving", example: "He was preserving the old manuscripts carefully." },
+                { subject: "We", verb: "were preserving", example: "We were preserving the park for future generations." },
+                { subject: "They", verb: "were preserving", example: "They were preserving traditional customs." }
+            ]
+        },
+        {
+            name: "Demonstrate",
+            conjugations: [
+                { subject: "I", verb: "was demonstrating", example: "I was demonstrating the new software to the team." },
+                { subject: "You", verb: "were demonstrating", example: "You were demonstrating excellent skills in the presentation." },
+                { subject: "He/She", verb: "was demonstrating", example: "She was demonstrating the process step by step." },
+                { subject: "We", verb: "were demonstrating", example: "We were demonstrating the product to potential clients." },
+                { subject: "They", verb: "were demonstrating", example: "They were demonstrating their commitment to the project." }
+            ]
+        },
+        {
+            name: "Generate",
+            conjugations: [
+                { subject: "I", verb: "was generating", example: "I was generating reports for the manager." },
+                { subject: "You", verb: "were generating", example: "You were generating new ideas during the meeting." },
+                { subject: "He/She", verb: "was generating", example: "He was generating revenue for the company." },
+                { subject: "We", verb: "were generating", example: "We were generating enough data to analyze." },
+                { subject: "They", verb: "were generating", example: "They were generating buzz about the event." }
+            ]
+        },
+        {
+            name: "Lock",
+            conjugations: [
+                { subject: "I", verb: "was locking", example: "I was locking the doors before leaving." },
+                { subject: "You", verb: "were locking", example: "You were locking your bike in the rack." },
+                { subject: "He/She", verb: "was locking", example: "She was locking the safe carefully." },
+                { subject: "We", verb: "were locking", example: "We were locking the files in the cabinet." },
+                { subject: "They", verb: "were locking", example: "They were locking the gates for the night." }
+            ]
+        },
+        {
+            name: "Adapt",
+            conjugations: [
+                { subject: "I", verb: "was adapting", example: "I was adapting to the new software quickly." },
+                { subject: "You", verb: "were adapting", example: "You were adapting well to the changes." },
+                { subject: "He/She", verb: "was adapting", example: "He was adapting his style for the audience." },
+                { subject: "We", verb: "were adapting", example: "We were adapting the plan as we received feedback." },
+                { subject: "They", verb: "were adapting", example: "They were adapting to the new environment." }
+            ]
+        },
+        {
+            name: "Grab",
+            conjugations: [
+                { subject: "I", verb: "was grabbing", example: "I was grabbing my coat before leaving." },
+                { subject: "You", verb: "were grabbing", example: "You were grabbing some snacks from the kitchen." },
+                { subject: "He/She", verb: "was grabbing", example: "She was grabbing her phone to call." },
+                { subject: "We", verb: "were grabbing", example: "We were grabbing the last seats in the theater." },
+                { subject: "They", verb: "were grabbing", example: "They were grabbing the opportunity quickly." }
+            ]
+        },
+        {
+            name: "Calculate",
+            conjugations: [
+                { subject: "I", verb: "was calculating", example: "I was calculating the total cost of the trip." },
+                { subject: "You", verb: "were calculating", example: "You were calculating your expenses carefully." },
+                { subject: "He/She", verb: "was calculating", example: "He was calculating the risk involved." },
+                { subject: "We", verb: "were calculating", example: "We were calculating the results of the test." },
+                { subject: "They", verb: "were calculating", example: "They were calculating the best route to take." }
+            ]
+        },
+        {
+            name: "Proceed",
+            conjugations: [
+                { subject: "I", verb: "was proceeding", example: "I was proceeding with the project as planned." },
+                { subject: "You", verb: "were proceeding", example: "You were proceeding despite the challenges." },
+                { subject: "He/She", verb: "was proceeding", example: "She was proceeding with the application process." },
+                { subject: "We", verb: "were proceeding", example: "We were proceeding after receiving approval." },
+                { subject: "They", verb: "were proceeding", example: "They were proceeding with the investigation." }
+            ]
+        },
+        {
+            name: "Trust",
+            conjugations: [
+                { subject: "I", verb: "was trusting", example: "I was trusting his judgment in the matter." },
+                { subject: "You", verb: "were trusting", example: "You were trusting the team to deliver." },
+                { subject: "He/She", verb: "was trusting", example: "He was trusting the new system to work." },
+                { subject: "We", verb: "were trusting", example: "We were trusting the experts' advice." },
+                { subject: "They", verb: "were trusting", example: "They were trusting the process." }
+            ]
+        },
+        {
+            name: "Wake",
+            conjugations: [
+                { subject: "I", verb: "was waking", example: "I was waking up early to catch the train." },
+                { subject: "You", verb: "were waking", example: "You were waking the children for school." },
+                { subject: "He/She", verb: "was waking", example: "She was waking up to the sound of birds." },
+                { subject: "We", verb: "were waking", example: "We were waking the neighbors after the noise." },
+                { subject: "They", verb: "were waking", example: "They were waking late on weekends." }
+            ]
+        },
+        {
+            name: "Hate",
+            conjugations: [
+                { subject: "I", verb: "was hating", example: "I was hating the cold weather yesterday." },
+                { subject: "You", verb: "were hating", example: "You were hating the long wait." },
+                { subject: "He/She", verb: "was hating", example: "He was hating the traffic jam." },
+                { subject: "We", verb: "were hating", example: "We were hating the poor service at the restaurant." },
+                { subject: "They", verb: "were hating", example: "They were hating the delays." }
+            ]
+        },
+        {
+            name: "Fear",
+            conjugations: [
+                { subject: "I", verb: "was fearing", example: "I was fearing the worst during the storm." },
+                { subject: "You", verb: "were fearing", example: "You were fearing failure in the test." },
+                { subject: "He/She", verb: "was fearing", example: "She was fearing the outcome of the meeting." },
+                { subject: "We", verb: "were fearing", example: "We were fearing the unknown." },
+                { subject: "They", verb: "were fearing", example: "They were fearing for their safety." }
+            ]
+        },
+        {
+            name: "Possess",
+            conjugations: [
+                { subject: "I", verb: "was possessing", example: "I was possessing all necessary documents." },
+                { subject: "You", verb: "were possessing", example: "You were possessing the right credentials." },
+                { subject: "He/She", verb: "was possessing", example: "He was possessing a rare skill." },
+                { subject: "We", verb: "were possessing", example: "We were possessing the required tools." },
+                { subject: "They", verb: "were possessing", example: "They were possessing confidential information." }
+            ]
+        },
+        {
+            name: "Recognize",
+            conjugations: [
+                { subject: "I", verb: "was recognizing", example: "I was recognizing old friends at the event." },
+                { subject: "You", verb: "were recognizing", example: "You were recognizing signs of improvement." },
+                { subject: "He/She", verb: "was recognizing", example: "She was recognizing the melody instantly." },
+                { subject: "We", verb: "were recognizing", example: "We were recognizing the need for change." },
+                { subject: "They", verb: "were recognizing", example: "They were recognizing patterns in the data." }
+            ]
+        },
+        {
+            name: "Stretch",
+            conjugations: [
+                { subject: "I", verb: "was stretching", example: "I was stretching before the workout." },
+                { subject: "You", verb: "were stretching", example: "You were stretching your legs after sitting." },
+                { subject: "He/She", verb: "was stretching", example: "He was stretching the fabric carefully." },
+                { subject: "We", verb: "were stretching", example: "We were stretching the deadline to finish." },
+                { subject: "They", verb: "were stretching", example: "They were stretching their resources thin." }
+            ]
+        },
+        {
+            name: "Light",
+            conjugations: [
+                { subject: "I", verb: "was lighting", example: "I was lighting the candles for the ceremony." },
+                { subject: "You", verb: "were lighting", example: "You were lighting the fireplace." },
+                { subject: "He/She", verb: "was lighting", example: "She was lighting the street lamps." },
+                { subject: "We", verb: "were lighting", example: "We were lighting up the room with decorations." },
+                { subject: "They", verb: "were lighting", example: "They were lighting fireworks for the celebration." }
+            ]
+        },
+        {
+            name: "Interview",
+            conjugations: [
+                { subject: "I", verb: "was interviewing", example: "I was interviewing candidates all morning." },
+                { subject: "You", verb: "were interviewing", example: "You were interviewing for the new position." },
+                { subject: "He/She", verb: "was interviewing", example: "He was interviewing the expert on the topic." },
+                { subject: "We", verb: "were interviewing", example: "We were interviewing potential clients." },
+                { subject: "They", verb: "were interviewing", example: "They were interviewing witnesses for the case." }
+            ]
+        },
+        {
+            name: "Commit",
+            conjugations: [
+                { subject: "I", verb: "was committing", example: "I was committing to the new schedule." },
+                { subject: "You", verb: "were committing", example: "You were committing resources to the project." },
+                { subject: "He/She", verb: "was committing", example: "She was committing to the decision firmly." },
+                { subject: "We", verb: "were committing", example: "We were committing mistakes during the trial." },
+                { subject: "They", verb: "were committing", example: "They were committing to the cause." }
+            ]
+        },
+        {
+            name: "Reveal",
+            conjugations: [
+                { subject: "I", verb: "was revealing", example: "I was revealing the results to the team." },
+                { subject: "You", verb: "were revealing", example: "You were revealing the truth step by step." },
+                { subject: "He/She", verb: "was revealing", example: "He was revealing his intentions clearly." },
+                { subject: "We", verb: "were revealing", example: "We were revealing the new product features." },
+                { subject: "They", verb: "were revealing", example: "They were revealing the secrets cautiously." }
+            ]
+        },
+        {
+            name: "Load",
+            conjugations: [
+                { subject: "I", verb: "was loading", example: "I was loading the truck with supplies." },
+                { subject: "You", verb: "were loading", example: "You were loading the files onto the server." },
+                { subject: "He/She", verb: "was loading", example: "She was loading the dishwasher after dinner." },
+                { subject: "We", verb: "were loading", example: "We were loading the software updates." },
+                { subject: "They", verb: "were loading", example: "They were loading cargo on the ship." }
+            ]
+        },
+        {
+            name: "Highlight",
+            conjugations: [
+                { subject: "I", verb: "was highlighting", example: "I was highlighting key points in the document." },
+                { subject: "You", verb: "were highlighting", example: "You were highlighting the main ideas." },
+                { subject: "He/She", verb: "was highlighting", example: "He was highlighting the important data." },
+                { subject: "We", verb: "were highlighting", example: "We were highlighting differences in the reports." },
+                { subject: "They", verb: "were highlighting", example: "They were highlighting the achievements." }
+            ]
+        },
+        {
+            name: "Guide",
+            conjugations: [
+                { subject: "I", verb: "was guiding", example: "I was guiding the new employees through the system." },
+                { subject: "You", verb: "were guiding", example: "You were guiding the visitors around the facility." },
+                { subject: "He/She", verb: "was guiding", example: "She was guiding the students during the tour." },
+                { subject: "We", verb: "were guiding", example: "We were guiding the team to the solution." },
+                { subject: "They", verb: "were guiding", example: "They were guiding the discussion effectively." }
+            ]
+        },
+        {
+            name: "Quote",
+            conjugations: [
+                { subject: "I", verb: "was quoting", example: "I was quoting famous authors during the speech." },
+                { subject: "You", verb: "were quoting", example: "You were quoting statistics from the report." },
+                { subject: "He/She", verb: "was quoting", example: "He was quoting legal regulations accurately." },
+                { subject: "We", verb: "were quoting", example: "We were quoting sources for the article." },
+                { subject: "They", verb: "were quoting", example: "They were quoting lines from the movie." }
+            ]
+        },
+        {
+            name: "Charge",
+            conjugations: [
+                { subject: "I", verb: "was charging", example: "I was charging my phone all night." },
+                { subject: "You", verb: "were charging", example: "You were charging the battery before use." },
+                { subject: "He/She", verb: "was charging", example: "She was charging for the services provided." },
+                { subject: "We", verb: "were charging", example: "We were charging the equipment at the station." },
+                { subject: "They", verb: "were charging", example: "They were charging into battle bravely." }
+            ]
+        },
+    ],
+    "presentPerfect": [
         {
             name: "Be",
             conjugations: [
@@ -12119,7 +14491,7 @@ const verbData = {
             ]
         },        
     ],
-    "Present Continuous": [
+    "presentContinuous": [
         {
             name: "Be",
             conjugations: [
@@ -15326,14 +17698,14 @@ function speakText(text) {
     if (voices.length > 0) {
         let selectedVoice = null;
         
-        if (isEdge) {
+            if (isEdge) {
             // First try to find exact match for "Ryan Online (natural)"
-            selectedVoice = voices.find(voice => voice.name === "Ryan Online (natural)");
-            
+            /*selectedVoice = voices.find(voice => voice.name === "Ryan Online (natural)");*/
+            selectedVoice = voices.find(voice => voice.name === "Brian Online (natural)");  
             // If not found, try partial match
             if (!selectedVoice) {
                 selectedVoice = voices.find(voice => 
-                    voice.name.includes('Ryan') && voice.name.toLowerCase().includes('natural')
+                    voice.name.includes('Brian') && voice.name.toLowerCase().includes('natural')
                 );
             }
             
@@ -15354,7 +17726,6 @@ function speakText(text) {
             if (!selectedVoice) {
                 selectedVoice = voices.find(voice => 
                     voice.name.includes('Google') && 
-                    voice.name.includes('English') && 
                     voice.name.includes('US')
                 );
             }
@@ -15502,8 +17873,9 @@ function setupSearch() {
         
         // Iterate through all tenses
         for (const tense in verbData) {
+            // EXACT MATCH: Changed from includes() to exact match comparison
             const matchingVerbs = verbData[tense].filter(verb => 
-                verb.name.toLowerCase().includes(searchTerm)
+                verb.name.toLowerCase() === searchTerm
             );
             
             if (matchingVerbs.length > 0) {
@@ -15689,10 +18061,12 @@ function formatTenseTitle(tense) {
             return 'Past Tense';
         case 'future':
             return 'Future Tense';
-        case 'present Perfect':
-            return 'Present Perfect Tense';
-        case 'present Continuous':
-            return 'Present Continuous Tense';
+        case 'pastContinuous':           // Add this
+            return 'Past Continuous';
+        case 'presentPerfect':           // Update these too if needed
+            return 'Present Perfect';
+        case 'presentContinuous':        // Update these too if needed
+            return 'Present Continuous';
         default:
             return tense.charAt(0).toUpperCase() + tense.slice(1) + ' Tense';
     }
@@ -15743,7 +18117,6 @@ function setupHamburgerMenu() {
         document.body.style.overflow = ''; // Réactiver le défilement
     }
 }
-
 
 /*
 
